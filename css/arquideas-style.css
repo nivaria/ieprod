@@ -1,5 +1,5 @@
 body {
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family:  Arial, sans-serif;
 font-size: 87.5%;
 margin: 0;
 padding: 0;
@@ -8,10 +8,10 @@ a {
 text-decoration: none;
 }
 a:hover {
-text-decoration: underline;
+text-decoration: underline !important ;
 }
 a, a:link, a:visited, a:hover, a:focus, a:active {
-color: #FF3F3F;
+color: #6AB2D9;
 }
 img {
   max-width: 100%;
@@ -19,20 +19,20 @@ img {
   height: auto;
 }
 h1 {
-font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
-font-size: 2.5em;
-font-weight: normal;
-line-height: 1.1em;
-margin: 0.5em 0;
+	font-family: "Helvetica Neue", Helvetica,;
+	font-size: 2.5em;
+	font-weight: lighter;
+	line-height: 1.1em;
+	margin: 0.5em 0;
 }
 h2 {
-font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 1.6em;
 font-weight: normal;
 margin: 0 0 18px;
 }
 h3 {
-font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 1.2em;
 font-weight: normal;
 margin: 18px 0;
@@ -41,7 +41,7 @@ margin: 18px 0;
 border-bottom: medium none;
 }
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
+  color: #222;
 }
 blockquote p:first-child {
 margin-top: 0;
@@ -80,7 +80,7 @@ text-indent: 0;
     padding: 0 0 0 12px;
 }
 .node .inner .links ul li > a {
-color: #FF3F3F;
+color: #6AB2D9;
 }
 .max-width {
   min-width: 920px;
@@ -105,7 +105,7 @@ div.messages ul, div.content-help .help ul {
 #user-menu-wrapper {
   position: fixed;
   height: 35px;
-  background-color: #000;
+  background-color: #222;
   z-index: 999;
   top: 0;
 }
@@ -171,12 +171,14 @@ body.admin-menu #header-region-following.fixed-menu {
 }
 .slogan {
 color: #333333;
-  font-family: "SoinSans-BoldOblique", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 18px;
 font-style: normal;
 height: 27px;
 line-height: 27px;
 margin: 0 0 15px 0;
+font-weight:200;
+font-style:italic;
 }
 .main, .footer {
 position: relative;
@@ -192,7 +194,7 @@ padding: 0;
 }
 #user-menu .logged-user-link-div {
   position: relative;
-  font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
 }
 #user-menu .hello-user {
@@ -218,11 +220,11 @@ padding: 0;
 }
 
 #user-menu .logged-user-links ul.links {
-  font-family: "SoinSans-Roman", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   background-color: #FFFFFF;
-  border: 1px solid #000000;
-  box-shadow: 4px 4px 0 #000000;
+  border: 1px solid #222222;
+  box-shadow: 4px 4px 0 #222222;
   max-height: 0;
   overflow: hidden;
 
@@ -246,12 +248,12 @@ padding: 0;
   display: block;
   margin: 0;
   padding: 2px 12px;
-  border-bottom: 1px solid #000;
-  color: #000;
+  border-bottom: 1px solid #222;
+  color: #222;
 }
 #user-menu .logged-user-links ul.links li a:hover,
 #user-menu .logged-user-links ul.links li a:active {
-  color: #FF3F3F;
+  color: #6AB2D9;
   text-decoration: none;
 }
 
@@ -403,7 +405,7 @@ width: 660px;
   margin: 0;
 }
 .breadcrumbs {
-color: #000;
+color: #222;
 float: left;
 font-size: 11px;
 line-height: 18px;
@@ -660,11 +662,11 @@ text-align: right;
 width: 49%;
 }
 #acquia-footer-message a, #fusion-footer-message a {
-color: #FF3F3F;
+color: #6AB2D9;
 font-size: 1em;
 }
 h1.title {
-color: #000;
+color: #222;
   font-size: 36px;
   line-height: 36px;
   text-align: center;
@@ -672,10 +674,10 @@ color: #000;
   margin-bottom: 0;
 }
 .node-unpublished {
-background-color: #FF3F3F;
+background-color: #6AB2D9;
 }
 .preview .node {
-background-color: #FF3F3F;
+background-color: #6AB2D9;
 }
 .node-form #tagging-widget-container .description {
 float: left;
@@ -803,7 +805,7 @@ margin-bottom: 0;
 }
 div.content-messages-inner div.status {
 background-color: #D2E1FF;
-border: 1px solid #FF3F3F;
+border: 1px solid #6AB2D9;
 color: #666666;
 }
 div.content-messages-inner div.warning {
@@ -827,7 +829,7 @@ padding: 4px 8px;
 width: 95%;
 }
 .form-item input.error, .form-item textarea.error, .form-item select.error {
-border: 1px solid #FF3F3F;
+border: 1px solid #6AB2D9;
 }
 .marker {
 color: #9D0E79;
@@ -842,7 +844,7 @@ float: left;
 color: #E10019;
 }
 .block-title {
-  font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   font-size: 18px;
@@ -871,7 +873,7 @@ margin-top: 0;
 margin: 0;
 }
 #content-tabs ul.primary, #content-tabs ul.secondary {
-border-bottom: 1px solid #000;
+border-bottom: 1px solid #222;
 clear: both;
 float: left;
 margin: 0;
@@ -880,7 +882,7 @@ width: 100%;
 }
 #content-tabs ul.secondary {
 background-color: #ffffff;
-border-bottom: 1px solid #000;
+border-bottom: 1px solid #222;
 padding-top: 10px;
 text-transform: uppercase;
 }
@@ -907,9 +909,9 @@ padding: 0;
 #content-tabs ul.primary li a:visited {
 background-color: #fff;
 border-style: solid;
-border-color: #000;
+border-color: #222;
 border-width: 1px 1px 0 1px;
-color: #000;
+color: #222;
 font-size: 12px;
 font-weight: normal;
 height: 20px;
@@ -925,8 +927,8 @@ margin: 0;
 #content-tabs ul.primary li.active a,
 #content-tabs ul.primary li.active a:link,
 #content-tabs ul.primary li.active a:visited {
-border: 1px solid #000;
-background-color: #000;
+border: 1px solid #222;
+background-color: #222;
 color: #FFFFFF;
 }
 #content-tabs ul.primary li a:hover,
@@ -965,8 +967,8 @@ padding-bottom: 2px;
 clear: both;
 }
 .item-list ul.pager {
- /* border-top: 1px solid #000;
-  border-bottom: 1px solid #000;*/
+ /* border-top: 1px solid #222;
+  border-bottom: 1px solid #222;*/
 display: block;
 margin: 0 auto;
 padding: 8px 0;
@@ -996,7 +998,7 @@ margin: 0;
 padding: 0;
 }
 .item-list ul.pager li a.active {
-color: #FF3F3F;
+color: #6AB2D9;
 }
 .item-list ul.pager li {
 margin: 0 0 0 6px !important;
@@ -1020,13 +1022,13 @@ body.page-groups .item-list ul.pager li a, body.page-groups .item-list ul.pager 
 /*font-size: 14px;*/
 }
 .item-list ul.pager li a, .item-list ul.pager li a:link, .item-list ul.pager li a:visited {
-color: #000;
+color: #222;
 }
 .item-list ul.pager li.pager-current {
-color: #FF3F3F;
+color: #6AB2D9;
 }
 body.page-groups .item-list ul.pager li.pager-current, body.page-search .item-list ul.pager li.pager-current {
-color: #FF3F3F;
+color: #6AB2D9;
 }
 .item-list ul.pager li a:hover, .item-list ul.pager li a:active {
 text-decoration: underline;
@@ -1117,7 +1119,8 @@ form .facebook-status-form input.form-submit {
 height: auto;
 }
 form .fbsmp-icon-list input.form-submit {
-color: #FF3F3F;
+color: #6AB2D9;
+border:none !important;
 }
 .views-exposed-form .views-exposed-widget input.form-submit {
 margin-top: 18px;
@@ -1208,12 +1211,14 @@ background: none repeat scroll 0 0 transparent;
 border: medium none !important;
 }
 fieldset {
-border-color: #000;
+border-color: #222;
 }
 fieldset legend {
-color: #000;
+color: #222;
 float: left;
-  font-family: "SoinSans-Bold",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
+
 font-size: 15px;
 font-weight: normal;
 padding: 6px 0;
@@ -1229,7 +1234,7 @@ padding: 0;
 html.js fieldset.collapsed {
 background-color: transparent;
 padding: 10px;
-border-color: #000;
+border-color: #222;
 }
 fieldset legend {
 }
@@ -1244,8 +1249,10 @@ border: 0 none;
 }
 thead th, th {
   background: url("../images/triple-fat-border.png") repeat-x center bottom transparent;
-  color: #000000;
-  font-family: "SoinSans-Bold",Helvetica,Arial,sans-serif;
+  color: #222222;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
+
   font-size: 16px;
   font-weight: normal;
   padding: 17px 0.2em 20px;
@@ -1256,18 +1263,18 @@ tbody th {
 }
 tr.even {
 background-color: transparent;
-border-bottom: 1px solid #000;
+border-bottom: 1px solid #222;
 padding: 0;
 }
 tr.odd {
 background-color: transparent;
-border-bottom: 1px solid #000;
+border-bottom: 1px solid #222;
 padding: 0;
 }
 tr.even td, tr.odd td {
 background-color: transparent;
 border: 0 none;
-color: #000;
+color: #222;
 }
 .block.block-views .view-content .item-list ul li.views-row-odd {
 background-color: transparent;
@@ -1328,7 +1335,7 @@ border-top: 1px dashed #CCCCCC;
 padding-top: 10px;
 }
 #comments h2, .page-comment #content-content .box h2, .buildmode-full .node-type-faq_question .field-gerencia-reply-form-widget h2 {
-background-color: #000;
+background-color: #222;
 border: 0 none;
 border-radius: 0 0 0 0;
 color: #fff;
@@ -1347,7 +1354,7 @@ padding-bottom: 20px;
 }
 div.comment h3.title {
   font-size: 16px;
-font-family: "SoinSans-Roman", Helvetica, Arial, sans-serif;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-weight: normal;
 }
 .comment .comment-info {
@@ -1383,7 +1390,7 @@ font-weight: bold;
 margin-bottom: 2px;
 }
 .comment .comment-info .submitted span {
-  font-family: "SoinSans-Roman", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 11px;
 display: block;
 width: auto;
@@ -1423,15 +1430,17 @@ border: 0 none;
 }
 .comment .comment-content .links ul.links a {
   font-size: 12px;
-  background-color: #000;
+  background-color: #222;
 background-image: none;
 margin: 0 5px 0 0;
 padding: 6px 10px;
 white-space: nowrap;
 border-radius: 5px;
-  font-family: "SoinSans-BoldOblique", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
   text-decoration: none;
+  font-weight:bold;
+  font-style:italic;
 }
 .comment .comment-content .links ul.links a:hover {
   background-color: #666;
@@ -1657,7 +1666,7 @@ margin: 10px;
 padding: 0 15px 15px;
 }
 .front .panel-pane.pane-custom.pane-1 + .panel-separator, .front .panel-pane.pane-commons-core-4 + .panel-separator {
-border-top: 1px solid #000000;
+border-top: 1px solid #222222;
 height: 1px;
 margin: 0 0 20px;
 }
@@ -1768,7 +1777,7 @@ display: inline-block;
 padding: 0 10px 0 0;
 }
 .front .pane-commons-core-4 .inner .item-list li a {
-color: #000000;
+color: #222222;
 }
 .front .pane-commons-core-4 span.form-required {
 display: none;
@@ -2497,7 +2506,7 @@ right: 0;
 .view div.more-link,
 .view .view-footer,
 .heartbeat-more-messages-wrapper {
-  font-family: "SoinSans-BoldOblique", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 16px;
 font-weight: normal;
 line-height: 1.1em;
@@ -2507,6 +2516,8 @@ line-height: 1.1em;
 clear: both;
 margin: 0;
 padding: 0;
+  font-weight:bold;
+  font-style:italic;
 }
 .heartbeat-more-messages-wrapper p {
 margin: 0;
@@ -2525,7 +2536,7 @@ padding: 0;
 .view.left-more-link .view-footer,
 .view.right-more-link div.more-link,
 .view.right-more-link .view-footer {
-  border-top: 1px solid #000000;
+  border-top: 1px solid #222222;
   padding-top: 15px;
   text-align: left;
   min-height: auto;
@@ -2952,7 +2963,7 @@ position: absolute;
 top: 41px;
 }
 .view-user-meta .views-field-name span.username a {
-color: #000000;
+color: #222222;
 font-size: 12px;
 font-weight: normal;
 left: 84px;
@@ -3199,7 +3210,7 @@ width: 30px;
 }
 .dateblock .day {
 background-color: #DADEE1;
-color: #000000;
+color: #222222;
 float: left;
 font-size: 14px;
 font-weight: bold;
@@ -3379,7 +3390,7 @@ body.page-home #content-front #content-front-left .views_slideshow_singleframe_p
 	background-color: #FFF;
 }
 body.page-home #content-front #content-front-left .views_slideshow_singleframe_pager .odd.activeSlide{
-	background-color: #FF3F3F;
+	background-color: #6AB2D9;
 }
 body.page-home #content-front #content-front-right .content-inner {
   height: 174px;
@@ -3457,7 +3468,7 @@ background-image: none!important;
 }
 .calendar-calendar td.empty, .calendar-calendar table.mini td.empty, .calendar-calendar td {
 border: 1px solid #EBEBEB !important;
-color: #000;
+color: #222;
 margin: 0;
 padding: 5px 8px !important;
 text-align: center;
@@ -3576,9 +3587,9 @@ display: inline-block;
 padding-top: 6px;
 }
 .views-field-last-updated a, .views-field-last-updated h2, .views-field-title a, .views-field-title a h2 {
-color: #333333;
+color: #6AB2D9;
 font-weight: normal;
-font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .view.view-arqnetwork-group-detail-by-cat .view-content .views-field-title a {
     font-size: 1.4em;
@@ -3679,13 +3690,13 @@ border: 0 none !important;
 color: #FFFFFF;
 }
 .calendar-calendar tr td.has-events, .calendar-calendar tr.odd td.has-events, .calendar-calendar tr.even td.has-events {
-background-color: #000;
+background-color: #222;
 }
 .block-views .calendar-calendar tr td.has-events, .block-views .calendar-calendar tr.odd td.has-events, .block-views .calendar-calendar tr.even td.has-events {
 background-color: transparent;
 }
 .block-views .calendar-calendar tr td.has-events a, .block-views .calendar-calendar tr.odd td.has-events a, .block-views .calendar-calendar tr.even td.has-events a {
-color: #FF3F3F;
+color: #6AB2D9;
 }
 #block-views-228f369cb15ea72f0c4ceed52aaf99c7 .content {
 background-color: transparent;
@@ -3717,11 +3728,11 @@ body.node-type-page #content-group{
 	float: left;
 }
 body.no-sidebars #content-group h1.title {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #222;
   padding: 20px 0 30px;
   margin-bottom: 30px;
-  background: transparent url(../images/double-border.png) repeat-x bottom;
-}
+/*  background: transparent url(../images/double-border.png) repeat-x bottom;
+*/}
 body.node-type-contest .page-group #content-group {
 width: 945px;
 }
@@ -3789,8 +3800,8 @@ padding: 0;
 width: 660px;
 }
 body h1.title, body.page-node h1.title {
-font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
-font-weight: normal;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 100;
 padding: 20px 0 10px;
 width: auto;
 text-align: center;
@@ -3846,7 +3857,7 @@ color: #656565;
 margin-top: 0;
 }
 .views-edit-view .form-item label {
-color: #000000;
+color: #222222;
 float: none;
 width: auto;
 }
@@ -3875,7 +3886,7 @@ background-position: 96% center;
 background-repeat: no-repeat;
 border: 0 none;
 border-radius: 0 0 0 0;
-color: #000000;
+color: #222222;
 height: 20px;
 line-height: 20px;
 margin: 0 6px 0 0;
@@ -4067,7 +4078,9 @@ body.not-front .sidebar-last .block .view-content .item-list ul li .views-field-
 .sidebar-last .block .view-event-latest-comments .item-list ul li .views-field-subject a
 {
 	font-size: 1.4em;
-	font-family: "SoinSans-Bold",Helvetica,Arial,sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
+
 	font-weight: normal;
 }
 body.page-node .sidebar-last .block.block-views {
@@ -4166,7 +4179,7 @@ body.page-node .sidebar-last .block.block-views {
 }
 
 .field-file {
-border-bottom: 1px solid #000;
+border-bottom: 1px solid #222;
 margin-bottom: 30px;
 padding-bottom: 30px;
 }
@@ -4194,7 +4207,7 @@ font-weight: bold;
 vertical-align: top;
 }
 .block .field-links {
-border-bottom: 1px solid #000;
+border-bottom: 1px solid #222;
 margin-bottom: 30px;
 padding-bottom: 30px;
 }
@@ -4232,7 +4245,7 @@ background-image: url("../images/submenu_bullet.png");
 color: #333333;
 }
 .field-ds-group-ds-node-date-type-vote {
-border-top: 1px solid #000;
+border-top: 1px solid #222;
 float: none;
 margin-top: 6px;
 overflow: hidden;
@@ -4244,7 +4257,7 @@ margin-top: 0;
 padding-top: 0;
 }
 .field-ds-author-fullname {
-border-bottom: 1px solid #000;
+border-bottom: 1px solid #222;
 float: none;
 margin-bottom: 18px;
 overflow: hidden;
@@ -4308,7 +4321,7 @@ padding: 0 0 0.8em;
 margin-bottom: .8em;
 }
 .buildmode-full .node .field-terms {
-border-bottom: 1px solid #000;
+border-bottom: 1px solid #222;
 }
 .buildmode-full .node-type-wiki.node .field-terms {
 border-bottom: 0 none;
@@ -4316,7 +4329,7 @@ padding: 0 0 0.4em;
 margin-bottom: 0;
 }
 .buildmode-full .node-type-wiki.node .field-contributors-widget {
-border-bottom: 1px solid #000;
+border-bottom: 1px solid #222;
 padding: 0 0 0.8em;
 margin-bottom: .8em;
 }
@@ -4551,7 +4564,7 @@ margin: 0 6px 0 0;
 padding: 0 4px;
 }
 .page-ogdetails .page .view-group-selected-categories .view-content .item-list li.active.views-row {
-background-color: #36c9d3;
+background-color: #FF7425;
 color: #FFFFFF;
 }
 .page-ogdetails .page .view-group-selected-categories .view-content .item-list li.active.views-row a.active {
@@ -4601,12 +4614,12 @@ text-transform: lowercase;
 text-decoration: none;
 }
 .views-field-subscribe a {
-background-color: #36c9d3;
+background-color: #FF7425;
 border: 1px solid #EE7A19;
 color: #FFFFFF;
 }
 .views-field-subscribe a:hover {
-background-color: #36c9d3;
+background-color: #FF7425;
 text-decoration: none;
 }
 .img-left {
@@ -4771,7 +4784,7 @@ vertical-align: top;
 width: 148px;
 color: #1A1A1A;
 font-weight: bold;
-font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 12px;
 }
 body.not-front .page-full-view #main-content .view-content .views-slideshow-controls-top .views_slideshow_pagerNumbered .pager-item.activeSlide a {
@@ -4806,7 +4819,7 @@ body.not-front .page-full-view #main-content .view-content .views-slideshow-cont
     font-weight: bold;
 }
 body.not-front .page-full-view #main-content .view-content .views-slideshow-controls-top .item-list .pager .pager-element.pager-current a{
-    color: #000;
+    color: #222;
 }
 .views_slideshow_singleframe_pager div.views-field-count, .views_slideshow_singleframe_pager div.views-field-count-1, .views_slideshow_singleframe_pager div.views-field-count-2, .views_slideshow_singleframe_pager div.views-field-value, .views_slideshow_singleframe_pager div.views-field-value div, .views_slideshow_singleframe_pager div.jury-flags, .views_slideshow_singleframe_pager div.jury-flags div, .views_slideshow_singleframe_pager div.winners-flags, .views_slideshow_singleframe_pager div.winners-flags div, .views_slideshow_singleframe_pager div.fivestar-widget, .views_slideshow_singleframe_pager div.fivestar-widget div {
 display: block;
@@ -5135,10 +5148,10 @@ padding: 0;
 .primary-menu-footer-inner ul.sf-menu li a, .primary-menu-footer-inner ul.sf-menu li a:visited,
 .block .primary-menu-inner ul.sf-menu li a, .block .primary-menu-inner ul.sf-menu li a:visited,
 .primary-menu-inner ul.sf-menu li a, .primary-menu-inner ul.sf-menu li a:visited {
-font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
 background-color: transparent;
-color: #000000;
+color: #222222;
 display: inline;
 font-weight: normal;
 line-height: 43px;
@@ -5151,17 +5164,17 @@ text-transform: uppercase;
 .block .primary-menu-inner ul.sf-menu li a:hover,
 .primary-menu-inner ul.sf-menu li a:hover {
 background-color: #FFFFFF;
-color: #FF3F3F;
+color: #6AB2D9;
 }
 .primary-menu-inner ul.sf-menu li a:hover, .primary-menu-inner ul.sf-menu li.sfHover > a {
 background-color: #FFFFFF;
-color: #FF3F3F;
+color: #6AB2D9;
 border-radius: 0 !important;
 }
 .primary-menu-footer-inner ul.sf-menu li.active-trail > a,
 .primary-menu-inner ul.sf-menu li.active-trail > a, .primary-menu-inner ul.sf-menu li.leaf > a.active {
 background-color: white;
-color: #FF3F3F;
+color: #6AB2D9;
 font-weight: normal;
 }
 .primary-menu-inner ul.sf-menu li.last {
@@ -5212,7 +5225,7 @@ background-color: white;
 background-image: url("../images/submenu_bullet_hover.png");
 background-position: 12px center;
 background-repeat: no-repeat;
-color: #FF3F3F;
+color: #6AB2D9;
 padding: 0 12px 0 24px !important;
 }
 
@@ -5249,36 +5262,44 @@ padding: 3px;
   content: " ";
   width: 100%;
   height: 10px;
-  border: 1px solid #000;
-  -moz-box-shadow: 4px 4px 0 #000;
-  -webkit-box-shadow: 4px 4px 0 #000;
-  box-shadow: 4px 4px 0 #000;
+  border: 1px solid #222;
+  -moz-box-shadow: 4px 4px 0 #222;
+  -webkit-box-shadow: 4px 4px 0 #222;
+  box-shadow: 4px 4px 0 #222;
+  display:none;
 }
 
 .front-page-block .block-title {
-  margin-top: 60px;
-  font-size: 36px;
-  line-height: 36px;
-  text-align: center;
+ 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 38px;
+    font-weight: 200;
+    line-height: 36px;
+    margin-top: 60px;
+    text-align: center; 
+  
 }
 
 .subtitle,
 .front-page-block .subtitle {
-  font-family: "SoinSans-BoldOblique", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
   padding-bottom: 40px;
   margin: 0;
-  font-size: 18px;
+  font-size: 20px;
   color: #999;
   text-align: center;
+  font-style: italic;
+  padding-top:10px;
+  
 }
 
 .front-page-block .subtitle {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #222;
 }
 
 body.page-news #main-content-inner > h3.subtitle {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #222;
   margin-bottom: 40px;
 }
 
@@ -5289,7 +5310,7 @@ body.page-news #main-content-inner > h3.subtitle {
 #sidebar-last .single-border-block > .inner,
 #sidebar-first .single-border-block > .inner,
 .single-border-block > .inner {
-  border: 1px solid #000;
+  border: 1px solid #222;
   padding: 15px 10px 10px;
 }
 
@@ -5297,9 +5318,9 @@ body.page-news #main-content-inner > h3.subtitle {
 #sidebar-first .single-border-shadow-block > .inner,
 .single-border-shadow-block > .inner,
 .single-border-shadow-block > .content-inner {
-  border: 1px solid #000;
+  border: 1px solid #222;
   background-color: #fff;
-  box-shadow: 4px 4px 0 #000;
+  box-shadow: 4px 4px 0 #222;
   padding: 25px 10px 10px;
   margin-bottom: 24px;
 }
@@ -5307,11 +5328,11 @@ body.page-news #main-content-inner > h3.subtitle {
 #sidebar-last .double-border-shadow-block,
 #sidebar-first .double-border-shadow-block,
 .double-border-shadow-block {
-  border: 1px solid #000;
+  border: 1px solid #222;
   background-color: #fff;
-  -moz-box-shadow: 4px 4px 0 #000;
-  -webkit-box-shadow: 4px 4px 0 #000;
-  box-shadow: 4px 4px 0 #000;
+  -moz-box-shadow: 4px 4px 0 #222;
+  -webkit-box-shadow: 4px 4px 0 #222;
+  box-shadow: 4px 4px 0 #222;
   padding: 4px;
   margin-bottom: 24px;
 -webkit-box-sizing: border-box;
@@ -5324,7 +5345,7 @@ box-sizing: border-box;
 .double-border-shadow-block > .inner,
 .double-border-shadow-block > .content-inner {
   background-color: #fff;
-  border: 3px solid #000;
+  border: 3px solid #222;
   padding: 15px 10px 10px;
 }
 
@@ -5342,8 +5363,8 @@ box-sizing: border-box;
 .double-line h2.block-title {
   padding-bottom: 18px;
   margin-bottom: 22px;
-  background: transparent url(../images/double-border.png) repeat-x bottom;
-  border-bottom: 0 none;
+/*  background: transparent url(../images/double-border.png) repeat-x bottom;
+*/  border-bottom: 0 none;
 }
 
 #sidebar-last .triple-line h2.block-title,
@@ -5351,8 +5372,8 @@ box-sizing: border-box;
 .triple-line h2.block-title {
   padding-bottom: 20px;
   margin-bottom: 25px;
-  background: transparent url(../images/triple-border.png) repeat-x bottom;
-  border-bottom: 0 none;
+/*  background: transparent url(../images/triple-border.png) repeat-x bottom;
+*/  border-bottom: 0 none;
 }
 
 #sidebar-last .triple-fat-middle-line h2.block-title,
@@ -5360,8 +5381,8 @@ box-sizing: border-box;
 .triple-fat-middle-line h2.block-title {
   padding-bottom: 20px;
   margin-bottom: 25px;
-  background: transparent url(../images/triple-fat-border.png) repeat-x bottom;
-  border-bottom: 0 none;
+/*  background: transparent url(../images/triple-fat-border.png) repeat-x bottom;
+*/  border-bottom: 0 none;
 }
 
 #sidebar-last .small-block-title h2.block-title,
@@ -5446,10 +5467,10 @@ box-sizing: border-box;
   content: " ";
   width: 100%;
   height: 10px;
-  border: 1px solid #000;
-  -moz-box-shadow: 4px 4px 0 #000;
-  -webkit-box-shadow: 4px 4px 0 #000;
-  box-shadow: 4px 4px 0 #000;
+  border: 1px solid #222;
+  -moz-box-shadow: 4px 4px 0 #222;
+  -webkit-box-shadow: 4px 4px 0 #222;
+  box-shadow: 4px 4px 0 #222;
 }
 
 .before-after-title {
@@ -5464,7 +5485,7 @@ box-sizing: border-box;
 .view-contest-activity-log-stream h2.title {
 
   text-align: center;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #222;
   margin-bottom: 20px 0 30px;
   padding-bottom: 30px;
   font-size: 26px;
@@ -5472,7 +5493,7 @@ box-sizing: border-box;
 }
 
 .view-contest-activity-log-stream .view-content {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #222;
   margin: 0 auto;
   padding: 20px 100px;
 }
@@ -5540,12 +5561,12 @@ body.page-home #content-front-right .block {
 }
 
 .users-total .label {
-  font-family: "SoinSans-BoldOblique", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
 }
 
 .users-total .total {
-  font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 46px;
   line-height: 54px;
 }
@@ -5568,7 +5589,7 @@ body.page-home #content-front-right .block {
   width: 93px;
   height: 80px;
   padding: 0px 7px;
-  border-right: 1px solid #000;
+  border-right: 1px solid #222;
 }
 
 #block-menu-menu-menu-homepage ul li.last {
@@ -5581,7 +5602,7 @@ body.page-home #content-front-right .block {
   padding: 37px 0 0 0;
   display: block;
   text-align: center;
-  font-family: "SoinSans-Roman", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 11px;
   line-height: 14px;
   text-transform: uppercase;
@@ -5608,7 +5629,7 @@ body.page-home #content-front-right .block {
 }
 
 .slider-full-black .views_slideshow_singleframe_main {
-  background-color: #000;
+  background-color: #222;
   color: #fff;
 }
 
@@ -5678,7 +5699,7 @@ body.page-home #content-front-right .block {
 }
 
 .slider-full-black .views_slideshow_singleframe_pager div.activeSlide {
-  background-color: #FF3F3F;
+  background-color: #6AB2D9;
 }
 
 
@@ -5695,8 +5716,9 @@ body.page-home #content-front-right .block {
   margin: 0 100px;
   padding: 20px 0;
   min-height: 20px;
-  font-family: "SoinSans-Light", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:200
+
 }
 
 .view-arquideas-news-slideshow .views_slideshow_singleframe_pager,
@@ -5724,7 +5746,7 @@ body.page-home #content-front-right .block {
 
 .mini-slider-controls .views-slideshow-controls-bottom {
   text-align: right;
-  border-top: 1px solid #000;
+  border-top: 1px solid #222;
   padding-top: 8px;
 }
 
@@ -5773,7 +5795,7 @@ body.page-home #content-front-right .block {
 #block-views-slideshow_content-block_1 .views-field-title,
 #block-views-slideshow_content-block_1 .views-field-title a {
   margin-top: 20px;
-font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 color: #fff;
 font-weight: normal;
 font-size: 36px;
@@ -5783,8 +5805,9 @@ text-transform: uppercase;
 
 #block-views-slideshow_content-block_1 .views-field-field-node-slideshow-nid,
 #block-views-slideshow_content-block_1 .views-field-body {
-  font-family: "SoinSans-Light", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+
+  font-weight: 200;
   font-size: 16px;
   line-height: 20px;
 }
@@ -5804,7 +5827,7 @@ text-transform: uppercase;
   width: 267px;
   height: 267px;
   padding: 15px;
-  background-color: #000;
+  background-color: #222;
   margin-bottom: 25px;
 }
 
@@ -5816,7 +5839,7 @@ text-transform: uppercase;
   content: " ";
   width: 297px;
   height: 297px;
-  border: 1px solid #000;
+  border: 1px solid #222;
 }
 
 #block-views-contests-block_1 .views-field-field-contest-image-homepage-fid img {
@@ -5830,7 +5853,9 @@ text-transform: uppercase;
   width: 267px;
   height: 267px;
   padding: 15px;
-  font-family: "SoinSans-BoldOblique", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:bold;
+  font-style:italic;
 }
 
 #block-views-contests-block_1 .views-field-title a {
@@ -5864,7 +5889,7 @@ text-transform: uppercase;
   height: 21px;
   position: relative;
   background-color: #fff;
-  border: 1px solid #000;
+  border: 1px solid #222;
   top: 3px;
   left: 3px;
   margin: 0 auto 20px auto;
@@ -5879,7 +5904,7 @@ text-transform: uppercase;
   height: 23px;
   color: #fff;
   background-color: #08cccb;
-  font-family: "SoinSans-BoldOblique", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 13px;
   line-height: 26px;
@@ -5888,11 +5913,13 @@ text-transform: uppercase;
   position: absolute;
   top: -3px;
   left: -3px;
+    font-weight:bold;
+  font-style:italic;
 }
 
 #block-views-contests-block_1 .state-closed,
 .contests-list-blocks .state-closed {
-  background-color: #000;
+  background-color: #222;
 }
 
 #block-views-contests-block_1 .views-field-field-contest-subtitle-value {
@@ -5924,7 +5951,7 @@ text-transform: uppercase;
   width: 25px;
   left: -42px;
   top: -18px;
-  background-color: #000;
+  background-color: #222;
   padding: 10px 0 5px 0;
 }
 
@@ -5948,7 +5975,7 @@ text-transform: uppercase;
 }
 
 #block-views-news-block_3 .views_slideshow_singleframe_pager div.activeSlide {
-  background-color: #FF3F3F;
+  background-color: #6AB2D9;
 }
 
 #block-views-news-block_3 .view-content {
@@ -5958,7 +5985,7 @@ text-transform: uppercase;
 
 #block-views-news-block_3 .view-content h3,
 #block-views-news-block_3 .view-content h4 {
-  font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 15px;
   margin-bottom: 5px;
@@ -5982,9 +6009,11 @@ text-transform: uppercase;
 #block-nodeblock-293 .inner > .content {
   padding: 3px 85px;
   background: white url(../images/envelope.png) no-repeat 35px center;
-  font-family: "SoinSans-BoldOblique", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
+    font-weight:bold;
+  font-style:italic;
 }
 
 #block-nodeblock-293 .inner > .content > .node {
@@ -6122,7 +6151,7 @@ text-transform: uppercase;
   top: 55%;
   text-align: center;
   width: 229px;
-  color: #FF3F3F;
+  color: #6AB2D9;
   font-size: 13px;
 }
 
@@ -6156,7 +6185,7 @@ text-transform: uppercase;
 .view-arquideas-contest-prizes.view-display-id-block_9 .project-social,
 .view-arqnetwork-user-projects.view-display-id-page_1 .project-social,
 .view-arqnetwork-user-content.view-display-id-block_3 .project-social{
-  background-color: #000000;
+  background-color: #222222;
   color: #FFFFFF;
   height: 28px;
   left:0;
@@ -6264,7 +6293,7 @@ text-transform: uppercase;
 .sidebar-first .votes-count {
   display: block;
   float: left;
-  color: #000;
+  color: #222;
   padding-left: 20px;
   line-height: 20px;
   height: 20px;
@@ -6307,7 +6336,9 @@ text-transform: uppercase;
 #block-nodeblock-224 .content {
   width: 810px;
   margin: 40px auto 0;
-  font-family: "SoinSans-Bold",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
+
   font-weight: 18px;
   line-height: 140%;
 }
@@ -6323,7 +6354,7 @@ text-transform: uppercase;
 }
 .block-arquideas_partners_home .scroll-left a,
 .block-arquideas_partners_home .scroll-right a {
-  background: #000 url("../images/slider-controls.png") no-repeat 12px center;
+  background: #222 url("../images/slider-controls.png") no-repeat 12px center;
   display: inline-block;
   height: 42px;
   width: 42px;
@@ -6380,17 +6411,19 @@ body.page-opened-contests h1.title,
 body.page-finished-contests h1.title,
 body.page-opened-contests #content-region h2.block-title,
 body.page-finished-contests #content-region h2.block-title {
-  font-family: "SoinSans-Bold",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
+
   font-weight: normal;
   padding: 5px 0 20px;
   width: auto;
-  color: #000000;
+  color: #222222;
   font-size: 36px;
   line-height: 36px;
   margin-bottom: 20px;
   text-align: center;
   text-transform: uppercase;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #222;
 }
 
 .contests-view .views-field-phpcode,
@@ -6410,13 +6443,13 @@ body.page-finished-contests #content-region h2.block-title {
 }
 
 .contests-view .views-row {
-  font-family: "SoinSans-Roman", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #fff;
   position: relative;
   background: #fff;
   margin-bottom: 40px;
-  border: 1px solid #000000;
+  border: 1px solid #222222;
   top: 4px;
   left: 4px;
 }
@@ -6425,7 +6458,7 @@ body.page-finished-contests #content-region h2.block-title {
   position: relative;
   top: -4px;
   left: -4px;
-  background: #000;
+  background: #222;
 }
 
 .contests-view .contest-followers,
@@ -6468,7 +6501,7 @@ body.page-finished-contests #content-region h2.block-title {
 }
 
 .contests-view .views-field-field-contest-tagline-value {
-  font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
   font-size: 16px;
   padding-bottom: 20px;
@@ -6572,12 +6605,14 @@ body.page-finished-contests #content-region h2.block-title {
 
 /* Contest Details Page */
 #contest-banner {
-  background-color: #000;
+  background-color: #222;
   color: #fff;
   padding: 5px 5px 15px 5px;
   margin-bottom: 90px;
   position: relative;
-  font-family: "SoinSans-Bold",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
+
 }
 
 #contest-banner > img {
@@ -6618,7 +6653,8 @@ text-align: center;
 
 
 #contest-banner .content-stats label {
-  font-family: "SoinSans-Roman",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+
   line-height: 15px;
 }
 
@@ -6641,10 +6677,10 @@ text-align: center;
 
 .jquery-countdown.hasCountdown {
   border: 0 none;
-  background-color: #000;
-  font-family: "SoinSans-Roman",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
   font-weight: normal;
   font-size: 12px;
+  background:#222222 !important;
 }
 
 .jquery-countdown.hasCountdown span {
@@ -6673,19 +6709,20 @@ text-align: center;
 #contest-banner .contest-state-wrapper .generic-button,
 #block-views-contests-block_2 .contest-state,
 .contest-state-wrapper .contest-state {
-  background-color: #FF3F3F;
-  box-shadow: 2px 1px 0 0 #FFFFFF, 3px 2px 0 0 #000;
-  border: 1px solid #000;
+  background-color: #88CCAE;
+ /* box-shadow: 2px 1px 0 0 #FFFFFF, 3px 2px 0 0 #222;
+  border: 1px solid #222;*/
   color: #FFFFFF;
   display: inline-block;
-  font-family: "SoinSans-BoldOblique",Helvetica,Arial,sans-serif;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
-  height: 23px;
+  height: 25px;
   line-height: 26px;
   margin: 10px auto 10px;
-  padding: 0 8px;
+  padding: 0 12px;
   text-align: center;
   text-transform: uppercase;
+  font-weight:bold;
 }
 
 .contest-state-wrapper .public-votation-link {
@@ -6720,7 +6757,7 @@ body.node-type-contest .node-content-main {
 
 #quicktabs-quicktabs_contest_closed .quicktabs_tabs,
 #quicktabs-quicktabs_contest_open .quicktabs_tabs {
-  border: 1px solid #000;
+  border: 1px solid #222;
   display: block;
   height: 40px;
   left: 3px;
@@ -6732,7 +6769,9 @@ body.node-type-contest .node-content-main {
 
 #quicktabs-quicktabs_contest_closed .quicktabs_tabs li,
 #quicktabs-quicktabs_contest_open .quicktabs_tabs li {
-  font-family: "SoinSans-Bold",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
+
   margin: 0;
   padding: 0;
 }
@@ -6740,7 +6779,7 @@ body.node-type-contest .node-content-main {
 #quicktabs-quicktabs_contest_closed .quicktabs_tabs li a,
 #quicktabs-quicktabs_contest_open .quicktabs_tabs li a {
   background-color: #FFFFFF;
-  border-color: #000000;
+  border-color: #222222;
   border-image: none;
   border-style: solid;
   border-width: 1px 1px 1px 0;
@@ -6772,17 +6811,19 @@ body.node-type-contest .node-content-main {
 
 #quicktabs-quicktabs_contest_closed .quicktabs_tabs li:first-child a,
 #quicktabs-quicktabs_contest_open .quicktabs_tabs li:first-child a {
-  border-left: 1px solid #000;
+  border-left: 1px solid #222;
 }
 
 .node-type-contest .views-label-body {
-  color: #000;
+  color: #222;
   display: block;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #222;
   margin-bottom: 20px;
   padding-bottom: 20px;
   text-transform: uppercase;
-  font-family: "SoinSans-Bold",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
+
   font-size: 20px;
   font-weight: normal;
 }
@@ -6808,9 +6849,11 @@ body.node-type-contest .node-content-main {
 .node-type-contest .views-field-field-prize-value label,
 .node-type-contest .views-field-field-registration-fee-value label {
   display: block;
-  color: #000;
+  color: #222;
   margin-bottom: 20px;
-  font-family: "SoinSans-Bold",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
+
   font-size: 20px;
   font-weight: normal;
 }
@@ -6818,7 +6861,7 @@ body.node-type-contest .node-content-main {
 .node-type-contest .contest-winners,
 .view-arquideas-contest-prizes.view-display-id-block_8,
 .view-arquideas-contest-prizes.view-display-id-block_9 {
-  border: 1px solid #000;
+  border: 1px solid #222;
   padding: 20px;
   margin-bottom: 30px;
 }
@@ -6889,7 +6932,7 @@ body.node-type-contest .special-mentions h1 {
 }
 
 .contest-winners .views-field-field-inscription-members-imname-vname {
-  border-top: 1px solid #000;
+  border-top: 1px solid #222;
   margin-top: 30px;
   padding-top: 30px;
   font-size: 12px;
@@ -6940,7 +6983,7 @@ body.node-type-contest .special-mentions h1 {
 #block-arquideas_generic-6 a,
 #block-arquideas_generic-7 a {
   font-size: 16px;
-  font-family: "SoinSans-Bold",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
   line-height: 150%;
 }
 
@@ -6951,7 +6994,7 @@ body.node-type-contest .special-mentions h1 {
 #contest-banner .contest-state-wrapper .generic-button,
 .view-contest-blocks.view-display-id-block_6 .generic-button {
   float: none;
-  background-color: #36C9D3;
+  background-color: #FF7425;
 }
 
 .contest-winners .view-arquideas-contest-prizes.view-display-id-block_7 .views-row-inner > div,
@@ -6994,7 +7037,9 @@ body.node-type-contest .special-mentions h1 {
 
 .page-solr-nodetype #content-front #content-front-left h2.block-title,
 .page-solr-nodetype-multi #content-front #content-front-left h2.block-title {
-  font-family: "SoinSans-Bold",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
+
   font-size: 36px;
   line-height: 42px;
   text-align: left;
@@ -7117,11 +7162,11 @@ body.page-solr-nodetype #content-front-inner .block-nodeblock h1.title {
 
 .nodetype_apachesolr_search-results li .title a,
 .view-profile-follower.view-display-id-default .views-field-name a{
-  color: #000;
+  color: #222;
 }
 
 .view-profile-follower.view-display-id-default .views-field-name a{
-  font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.6em;
   font-weight: normal;
 }
@@ -7135,7 +7180,7 @@ body.page-solr-nodetype #content-front-inner .block-nodeblock h1.title {
 }
 
 .nodetype_apachesolr_search-results li .project-social {
-  background-color: #000000;
+  background-color: #222222;
   color: #FFFFFF;
   height: 28px;
   left:0;
@@ -7183,10 +7228,11 @@ body.node-type-inscription-1 #breadcrumbs {
 .inscription-info-public,
 .project-info-public,
 #page.page-full-view .view-full-page{
-  background-color: #000;
+  background-color: #222;
   padding: 20px;
   color: #fff;
-  font-family: "SoinSans-Roman",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+
   font-size: 14px;
 }
 
@@ -7202,14 +7248,15 @@ body.node-type-inscription-1 #breadcrumbs {
 }
 
 .inscription-navigation {
-  font-family: "SoinSans-Roman",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+
   font-size: 14px;
   font-weight: normal;
   float: left;
 }
 .inscription-navigation .previous-inscription a,
 .inscription-navigation .next-inscription a {
-  background-color: #000;
+  background-color: #222;
   color: #fff;
   padding: 4px 12px;
   border-radius: 5px;
@@ -7357,11 +7404,12 @@ body.node-type-inscription-1 #breadcrumbs {
 .featured-colaborators .views-field-phpcode .field-content,
 .featured-colaborators .views-field-view-node {
   padding-left: 315px;
-  font-family: "SoinSans-Oblique",Helvetica,Arial,sans-serif;
-  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-style:italic;text-align: left;
   font-size: 16px;
   font-weight: normal;
   color: #999999;
+
 }
 
 .featured-colaborators .views-field-phpcode .field-content {
@@ -7375,8 +7423,10 @@ body.node-type-inscription-1 #breadcrumbs {
 
 
 .featured-colaborators .views-field-field-comment-title-col-value {
-  font-family: "SoinSans-Bold",Helvetica,Arial,sans-serif;
-  color: #000;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
+
+  color: #222;
   font-size: 17px;
   margin-bottom: 10px;
 }
@@ -7418,8 +7468,8 @@ body.node-type-inscription-1 #breadcrumbs {
 .two-columns-colaborators .views-field-phpcode,
 .two-columns-colaborators .views-field-phpcode .field-content,
 .two-columns-colaborators .views-field-view-node {
-  font-family: "SoinSans-Oblique",Helvetica,Arial,sans-serif;
-  font-weight: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-style:italic;font-weight: normal;
   font-size: 14px;
   text-align: center;
   color: #999999;
@@ -7427,8 +7477,9 @@ body.node-type-inscription-1 #breadcrumbs {
 }
 
 .two-columns-colaborators .views-field-field-comment-title-col-value {
-  color: #000;
-  font-family: "SoinSans-Roman",Helvetica,Arial,sans-serif;
+  color: #222;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+
   padding: 15px 3px 15px 12px;
 }
 
@@ -7459,11 +7510,12 @@ body.node-type-inscription-1 #breadcrumbs {
 .view-jury-members .views-field-title,
 .view-jury-partners-co .views-field-title {
   font-size: 16px!important;
-  color: #000;
+  color: #222;
   margin: 0 0 5px 80px !important;
 }
 .view-jury-partners-co .views-field-title .field-content a{
-	  font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+	  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  color:#333333;
 }
 .view-jury-members .views-field-field-short-description-value,
 .view-jury-partners-co .views-field-field-short-description-value {
@@ -7486,7 +7538,7 @@ body.node-type-inscription-1 #breadcrumbs {
 .sidebar-last #block-views-jury_partners_co-block_3 h2.title{
 	padding-bottom: 10px;
 	margin-bottom: 10px;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #222;
 }
 .view-jury-partners-co.view-display-id-page_1 .views-field-field-square-image-col-fid {
   float: left;
@@ -7495,9 +7547,11 @@ body.node-type-inscription-1 #breadcrumbs {
 
 /* Collaborators */
 .colaborator-top {
-  background-color: #000;
+  background-color: #222;
   color: #fff;
-  font-family: "SoinSans-Bold",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
+
   font-size: 15px;
   height: 220px;
   padding: 7px;
@@ -7510,7 +7564,8 @@ body.node-type-inscription-1 #breadcrumbs {
 }
 
 body.page-node #content-group .colaborator-top h1.title {
-  font-family: "SoinSans-Roman",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+
   color: #fff;
   text-transform: none;
   font-size: 30px;
@@ -7525,7 +7580,8 @@ body.page-node #content-group .colaborator-top h1.title {
 }
 
 .colaborator-top .field-link-col {
-  font-family: "SoinSans-Roman",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+
   margin-bottom: 25px;
 }
 
@@ -7542,12 +7598,16 @@ body.page-node #content-group .colaborator-top h1.title {
 }
 
 .colaborator-comment .comment-title {
-  font-family: "SoinSans-Bold",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
+
   font-size: 16px;
 }
 
 .colaborator-comment .comment-body {
-  font-family: "SoinSans-LightOblique",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-style:italic;
+ font-weight:200;
   font-size: 18px;
   line-height: 25px;
 }
@@ -7557,11 +7617,13 @@ body.page-node #content-group .colaborator-top h1.title {
 }
 
 .colaborator-presentation h2 {
-  color: #000;
+  color: #222;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #000;
-  font-family: "SoinSans-Bold",Helvetica,Arial,sans-serif;
+  border-bottom: 1px solid #222;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
+
   font-size: 18px;
   font-weight: normal;
   text-transform: uppercase;
@@ -7590,7 +7652,7 @@ body.page-node #content-group .colaborator-top h1.title {
 
 .contests-list-blocks .views-field-field-contest-image-fid,
 .view-colaborators-contests .views-field-field-contest-image-homepage-fid {
-  background-color: #000;
+  background-color: #222;
   padding: 15px;
 }
 .area-social #sidebar-last .mini-slider-controls img.imagecache{
@@ -7620,7 +7682,7 @@ body.page-node #content-group .colaborator-top h1.title {
   background: url(../images/transparent-spacer.png) repeat scroll 0 0 transparent;
   border: 1px solid #FFFFFF;
   color: #FFFFFF;
-  font-family: "SoinSans-BoldOblique",Helvetica,Arial,sans-serif;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px;
   height: 130px;
   left: 15px;
@@ -7632,6 +7694,8 @@ body.page-node #content-group .colaborator-top h1.title {
   text-decoration: none;
   top: 15px;
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  font-weight:bold;
+  font-style:italic;
 }
 
 .contests-list-blocks .views-field-title a:hover {
@@ -7727,8 +7791,10 @@ body.page-node #content-group .colaborator-top h1.title {
 
 /* Contest Winners */
 .view-arquideas-contest-winners .views-field-timestamp {
-  color: #000;
-  font-family: "SoinSans-Bold",Helvetica,Arial,sans-serif;
+  color: #222;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
+
   font-weight: normal;
   font-size: 15px;
   margin: 10px 0 0;
@@ -7736,20 +7802,22 @@ body.page-node #content-group .colaborator-top h1.title {
 }
 
 .view-arquideas-contest-winners .views-field-title-1 {
-  font-family: "SoinSans-Roman",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+
   font-size: 16px;
   font-weight: normal;
   line-height: 160%;
 }
 
 .view-arquideas-contest-winners .views-field-title-1 a {
-  color: #000;
+  color: #222;
 }
 
 .view-arquideas-contest-winners .views-field-title,
 .view-arquideas-contest-winners .views-field-field-inscription-members-list-vname {
   color: #b3b3b3;
-  font-family: "SoinSans-Roman",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+
   font-size: 13px;
   font-weight: normal;
   line-height: 130%;
@@ -7764,8 +7832,9 @@ body.page-node #content-group .colaborator-top h1.title {
 
 .view-arquideas-contest-winners .views-field-title a,
 .view-arquideas-contest-winners .views-field-field-inscription-members-list-vname a {
-  color: #FF3F3F;
-  font-family: "SoinSans-Roman",Helvetica,Arial,sans-serif;
+  color: #6AB2D9;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+
   font-size: 13px;
   font-weight: normal;
 }
@@ -7815,8 +7884,8 @@ float: left;
 width: 47%;
 
   background-color: #FFFFFF;
-  border: 1px solid #000000;
-  box-shadow: 4px 4px 0 #000000;
+  border: 1px solid #222222;
+  box-shadow: 4px 4px 0 #222222;
   padding: 15px 20px;
 }
 
@@ -7826,8 +7895,8 @@ float: right;
 width: 32%;
 
   background-color: #FFFFFF;
-  border: 1px solid #000000;
-  box-shadow: 4px 4px 0 #000000;
+  border: 1px solid #222222;
+  box-shadow: 4px 4px 0 #222222;
   padding: 15px 20px;
   text-align: center;
 }
@@ -7869,7 +7938,7 @@ float: left;
 #TB_window a:visited,
 #TB_window a:hover,
 #TB_window a:active {
-  color: #FF3F3F;
+  color: #6AB2D9;
 }
 
 #TB_title {
@@ -7918,7 +7987,7 @@ body.node-type-news h1.title {
 .node-type-news > .inner > .content {
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #222;
 }
 .node.node-type-news .meta {
   margin-bottom: 10px;
@@ -8026,32 +8095,37 @@ a.sign-up-link, a.sign-in-link, #edit-present, a.user-unsubscribe-link,
 .prev-project a, .next-project a,
 .page-full-view .views_slideshow_singleframe_slide .flag-wrapper .flag,
 #sidebar-last #block-commons_core-create_group .content #edit-create{
-  font-family: "SoinSans-BoldOblique",Helvetica,Arial,sans-serif;
-padding: 10px 20px;
-color: #fff;
-background: #FF3F3F;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  text-shadow: 1px 1px 2px #000000;
-  text-decoration: none;
-  display: inline-block;
-}
+	font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 10px 20px;
+	color: #fff;
+	background: #6AB2D9;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;  
+	text-shadow: 1px 1px 2px #002E65;  
+	text-decoration: none;
+	display: inline-block;
+	font-weight: 500;
+	font-style:italic;
+	}
 
 #edit-present{
     float:left;
 }
 
 #view-id-contests-page_2 .add-to-cart-link{
-  font-family: "SoinSans-BoldOblique",Helvetica,Arial,sans-serif;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 10px 20px;
   color: #fff;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  text-shadow: 1px 1px 2px #000000;
+  text-shadow: 1px 1px 2px #222222;
   text-decoration: none;
   display: inline-block;
+     font-weight:bold;
+  font-style:italic;
+  
 }
 #comment-form #edit-submit {
   margin: 0 auto;
@@ -8070,7 +8144,7 @@ background: #FF3F3F;
 }
 .register-link-div:last-child a,
 a.participate-link {
-  background-color: #000;
+  background-color: #222;
 }
 
 .join-us-link-div a {
@@ -8097,7 +8171,7 @@ margin-right: 10px;
 /* Blue Square Buttons */
 form input.form-submit, .views-exposed-form .views-exposed-widget input.form-submit, .og-buttons a, body.node-type-group.page-node form input#edit-submit, #gerencia-generic-faq-reply-form #edit-submit,
 #edit-submit, #edit-publish, #search-form #edit-submit, body.page-node .edit-content-link, body.page-ogdetails .edit-content-link, body.page-node .og-manage-link, body.page-node .generic-button, .flag-wrapper .flag {
-background-color: #36c9d3;
+background-color: #FF7425;
 background-image: none;
 border: 0 none;
 color: #FFFFFF;
@@ -8114,17 +8188,19 @@ a.contest-follow-link,
 a.contest-unfollow-link {
   display: block;
   text-align: center;
-  font-family: "SoinSans-BoldOblique",Helvetica,Arial,sans-serif;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 5px 8px;
   background-color: #999999;
   color: #fff;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  text-shadow: 1px 1px 2px #000000;
+  text-shadow: 1px 1px 2px #222222;
   text-decoration: none;
   font-size: 13px;
   font-weight: normal;
+   font-weight:bold;
+  font-style:italic;
 }
 
 
@@ -8148,7 +8224,7 @@ form input.form-submit:focus, .views-exposed-form .views-exposed-widget input.fo
  .contest-state-wrapper .register-link-div a:hover,
  .contest-state-wrapper a.public-votation-link:hover,
  .page-full-view .views_slideshow_singleframe_slide .flag-wrapper .flag:hover{
-background-color: #F86C00;
+background-color: #FF9475;
 background-image: none;
 text-decoration: none;
 }
@@ -8185,7 +8261,7 @@ body.area-social #main, body.area-social.page-one-column.page-node.node-type-gro
 	color: #999;
 }
 .breadcrumbs a.active, .breadcrumbs a.active:link, .breadcrumbs a.active:visited{
-	color: #000;
+	color: #222;
 	font-weight: normal;
 }
 #main-group.grid16-12{
@@ -8193,11 +8269,12 @@ body.area-social #main, body.area-social.page-one-column.page-node.node-type-gro
 }
 body.area-social  h1.title, body.page-node.area-social  h1.title {
     padding: 0;
-    color: #000;
+    color: #222;
     margin: 0;
     float: left;
     font-weight: normal;
-    font-family: SoinSans-Bold;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
     font-size: 28px;
     max-width:508px;
     width:508px;
@@ -8220,7 +8297,7 @@ table tr td.active{
 	margin: -10px 0 -10px 520px;
 	min-width: 150px;
         width: 180px;
-	background: #000;
+	background: #222;
 	height: 92px;
 }
 .follow-box-inner{
@@ -8232,7 +8309,9 @@ table tr td.active{
 	display: inline-block;
 	padding: 0px 8px;
 	background: #999999;
-	font-family: SoinSans-BoldOblique;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;  
+  font-weight:bold; 
+  font-style:italic;
 	border-radius: 4px 4px 4px 4px;
 	-webkit-border-radius: 4px 4px 4px 4px;
 	-moz-border-radius: 4px 4px 4px 4px;
@@ -8263,15 +8342,17 @@ table tr td.active{
 	margin-left: 20px;
 	font-size: 14px;
 	color: #a4a4a4;
-	font-family: SoinSans-Bold
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;  
+  font-weight:bold; 
 }
 .user-job{
 	margin: 4px 0 0 20px;
-	color: #000;
+	color: #222;
 	font-size: 16px;
 	float: left;
 	display: inline-block;
-	font-family: SoinSans-Bold;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
 	line-height: 29px;
 }
 
@@ -8294,8 +8375,9 @@ header .addthis_toolbox, header .widget-header{
 .area-social #content-tabs ul.primary{
 	/*margin-left: -24px;*/
 	padding-left: 20px;
-	background: #000;
-	font-family: SoinSans-Bold;
+	background: #222;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
 	border: 0;
 	width: 690px;
 	height: 44px;
@@ -8412,7 +8494,7 @@ ul.primary.ui-tabs-nav{
 	margin-bottom: 30px;
 	padding-bottom: 20px;
 	margin-top: 20px;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #222;
 	text-align: center;
 }
 .grid16-12.force_width{
@@ -8470,8 +8552,8 @@ a.grouping-button-container,
 }
 #block-quicktabs-arqnetwork_group_quicktabs h2.title{
 	text-align: center;
-	border-bottom: 1px solid #000;
-	border-top: 1px solid #000;
+	border-bottom: 1px solid #222;
+	border-top: 1px solid #222;
 	padding: 15px 0 15px 0;
 	margin: 15px 0 15px 0;
 }
@@ -8487,13 +8569,13 @@ a.tagging-button-container:hover,
 a.grouping-button-container:hover,
 #quicktabs-quicktabs_my_content .quicktabs_tabs li.active a,
 #quicktabs-arqnetwork_group_quicktabs .quicktabs_tabs li.active a{
-	background-color: #FF3F3F!Important;
+	background-color: #6AB2D9!Important;
 }
 .node-form .ui-tabs-nav li {
 	border: none!Important;
 }
 .node-form .standard label{
-	color: #000;
+	color: #222;
 	margin: 0 0 5px 0;
 }
 .area-social .node-form .standard input, .area-social  .node-form .standard textarea, .area-social  .node-form .standard #tagging-widget-container fieldset, .node-form .form-text{
@@ -8538,12 +8620,14 @@ a.grouping-button-container:hover,
 	width: 90%!important;
 }
 #edit-field-image-acp-0-filefield-upload, #edit-field-image-acp-0-filefield-remove{
-	background: #000;
+	background: #222;
 	padding: 6px 20px 4px 20px;
 	height: 30px;
 	border: none;
 	margin-right: 100px;
-	font-family: SoinSans-BoldOblique;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;  
+  font-weight:bold; 
+  font-style:italic;
 	font-weight: normal;
 }
 .node-form .standard a, .node-form .standard a:link, .node-form .standard a:visited, .node-form .standard a:hover, .node-form .standard a:focus, .node-form .standard a:active, a.user-unsubscribe-link {
@@ -8582,7 +8666,8 @@ width: auto; display: inline-block; float: right; display: none;
 	background: #000!important;
 	color: #fff;
 	line-height: 1;
-	font-family: SoinSans-BoldOblique!important;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+	  font-weight:bold; 
 }
  .open-contest-button .form-submit, .display-project .links li .flag-bookmarks a,.display-project .link-special-arquideas-prize a, .display-project .link-bookmarks a {
 	background: #3cc!important;
@@ -8595,22 +8680,24 @@ width: auto; display: inline-block; float: right; display: none;
 }
 .area-social #block-nodeblock-718, .area-social #block-views-advertisements-block_6, .area-social #block-views-contests-block_2{
 	margin: 0 10px;
-	border: 2px solid #000;
+	border: 2px solid #222;
 	/*padding: 10px;*/
 	text-align: center;
 	width: auto!important;
 	background: #fff!important;
-	box-shadow:2px 2px 0px #FFFFFF, 3px 3px 0px #000000;
-	-moz-box-shadow:2px 2px 0px #FFFFFF, 3px 3px 0px #000000;
-	-webkit-box-shadow:2px 2px 0px #FFFFFF, 3px 3px 0px #000000;
+	box-shadow:2px 2px 0px #FFFFFF, 3px 3px 0px #222222;
+	-moz-box-shadow:2px 2px 0px #FFFFFF, 3px 3px 0px #222222;
+	-webkit-box-shadow:2px 2px 0px #FFFFFF, 3px 3px 0px #222222;
 }
 .area-social #sidebar-last .block-nodeblock .block-title, .area-social #sidebar-last .block-views .block-title{
 	padding-bottom: 10px;
 	margin-bottom: 10px;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #222;
 }
 .area-social #sidebar-last .block-nodeblock a, .area-social #sidebar-last .block-views a{
-	font-family: SoinSans-BoldOblique;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;  
+  font-weight:bold; 
+  font-style:italic;
 	margin: 5px 5px;
 	/*font-size: 1.2em;*/
 }
@@ -8795,7 +8882,7 @@ width: auto; display: inline-block; float: right; display: none;
 	border-left: none;
 }
 .area-social .views-field-phpcode .field-content {
-	color: #000;
+	color: #222;
 	font-size: 1.2em;
 	font-weight: bold;
 }
@@ -8831,29 +8918,30 @@ body.area-social #sidebar-last.nested{
 .grid16-16.force_width.border{
 	margin-top: -31px;
 }
-body.area-social #sidebar-last.nested .block{
-	margin: 10px;
-	max-width: 218px;
+body.area-social #sidebar-last.nested .block{	
 	background: none repeat scroll 0 0 #FFFFFF !important;
-    border: 1px solid #000000;
-    margin: 0 10px;
+    border: medium none;
+    box-shadow: 1px 2px 5px #666666;
+    margin: 0 10px 20px;
+    max-width: 218px;
     text-align: center;
     width: auto !important;
-	margin-bottom: 20px;
+	
+	
 }
 
 body.area-social #sidebar-last.nested .views-row{
 	text-align: left;
 }
 body.area-social #sidebar-last .view-arqnetwork-block-inscriptions a{
-	color: #000;
+	color: #222;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin: 0;
 }
 body.area-social #sidebar-last .view-arqnetwork-block-inscriptions .views-row{
 	margin-bottom: 10px;
 	padding-bottom: 10px;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #222;
 }
 body.area-social #sidebar-last .view-arqnetwork-block-inscriptions .views-row.views-row-last{
 	margin-bottom: 0px;
@@ -8871,8 +8959,10 @@ body.area-social #sidebar-last.nested .block .inner{
 	   max-width: 198px;
 }
 body.area-social #sidebar-last.nested #block-views-advertisements-block_6{
-	  border: 1px solid #000000;
-	 box-shadow: 2px 2px 0 #FFFFFF, 3px 3px 0 #000000;
+    border: medium none;	
+    box-shadow: 1px 2px 5px #666666;
+	 
+	 
 }
 
 
@@ -8915,13 +9005,13 @@ body.area-social .views-exposed-wrapper .views-exposed-widget.views-exposed-subm
 .sidebar-last .block-views .views-field-subscribe a,
 .sidebar-last .block-views .views-field-leave-group a{
 	border: none;
-	background: #000;
+	background: #222;
 	border-radius: 3px 3px 3px 3px;
 	-webkit-border-radius: 3px 3px 3px 3px;
 	-moz-border-radius: 3px 3px 3px 3px;
 	color: #fff;
 	font-weight: bold;
-	font-family: SoinSans-Oblique!important;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif!important;
 	text-transform: uppercase;
 	padding: 6px 12px 4px 12px;
 	text-align: center;
@@ -8932,7 +9022,7 @@ body.area-social .views-exposed-wrapper .views-exposed-widget.views-exposed-subm
 }
 
 body.page-user #sidebar-last.nested .block .block-title, body.profile-me #sidebar-last.nested .block .block-title {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #222222;
     margin-bottom: 10px;
     padding-bottom: 10px;
 	margin-top: 5px;
@@ -8949,7 +9039,9 @@ body.page-user #sidebar-last.nested .block .block-title, body.profile-me #sideba
 }
 body.page-user #sidebar-last.nested .block .users-total,  body.profile-me #sidebar-last.nested .block .users-total,  body.area-social #sidebar-last.nested .block .users-total {
 	font-size: 1.2em;
-	font-family: SoinSans-Bold
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+
 }
 body.page-user #sidebar-last.nested .block .users-total .total,
 body.profile-me #sidebar-last.nested .block .users-total .total,
@@ -8984,9 +9076,9 @@ body.profile-me #sidebar-last.nested .block .users-total .label{
 	text-align: center;
 	margin: 30px 0 40px 0;
 	padding: 0 0 10px;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #222;
 	font-size: 3em;
-	color: #000;
+	color: #222;
 	text-transform: uppercase;
 }
 .arquideas-network #content-front-inner > .title.block-title,
@@ -8999,7 +9091,7 @@ body.profile-me #sidebar-last.nested .block .users-total .label{
 .page-solr-nodetype #content-front-inner > .subtitle{
 	margin-bottom: 40px;
 	padding-bottom: 20px;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #222;
 }
 #content-front #content-front-left{
 	margin-left: 20px;
@@ -9013,7 +9105,8 @@ body.profile-me #sidebar-last.nested .block .users-total .label{
 	display: none;
 }
 #block-nodeblock-246, #block-nodeblock-232, #block-nodeblock-231{
-	font-family: SoinSans-Bold;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
 	font-size: 1.6em;
 	margin-bottom: 0;
 }
@@ -9023,8 +9116,8 @@ body.profile-me #sidebar-last.nested .block .users-total .label{
 #content-front #content-front-right #block-arquideas_generic-4 .inner {
 	border: 1px solid black;
 	padding: 20px;
-	-webkit-box-shadow: 3px 3px 0px 0px #000;
-	box-shadow: 3px 3px 0px 0px #000;
+	-webkit-box-shadow: 3px 3px 0px 0px #222;
+	box-shadow: 3px 3px 0px 0px #222;
 }
 #content-front #content-front-right #block-arquideas_generic-4 .inner .users-total{
 	text-align: center;
@@ -9036,20 +9129,23 @@ body.profile-me #sidebar-last.nested .block .users-total .label{
 	margin-top: 20px;
 }
 #content-front #content-front-right #block-arquideas_generic-4 .inner .users-total .label{
-	font-family: SoinSans-BoldOblique;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;  
+  font-weight:bold; 
+  font-style:italic;
 	font-size: 1.8em;
 	margin-right: 10px;
 }
 
 #content-front #content-front-right #block-arquideas_generic-4 .inner .users-total .total{
-	font-family: SoinSans-Bold;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
 	font-size: 4.4em;
 }
 .separacion{
 	height: 14px;
-	border: 1px solid #000;
-	-webkit-box-shadow: 2px 2px 0px 0px #000;
-	box-shadow: 2px 2px 0px 0px #000;
+	border: 1px solid #222;
+	-webkit-box-shadow: 2px 2px 0px 0px #222;
+	box-shadow: 2px 2px 0px 0px #222;
 	margin: 0 0 20px 0;
 }
 .area-comunidad #main{
@@ -9088,7 +9184,7 @@ body.profile-me #sidebar-last.nested .block .users-total .label{
 	padding: 10px 20px;
 	margin-bottom: 0px;
 	border-bottom: 1px solid #ccc;
-	color: #000;
+	color: #222;
 	background-image: none;
 	line-height: 1;
 }
@@ -9177,11 +9273,11 @@ body.profile-me #sidebar-last.nested .block .users-total .label{
 	background: #9c0;
 }
 .area-comunidad #sidebar-last .view-arqnetwork-groups-most-active .view-content .views-field-title a:hover{
-	color: #FF3F3F;
+	color: #6AB2D9;
 	text-decoration: none;
 }
 .area-comunidad #sidebar-last .view-arqnetwork-groups-most-active .view-content .views-field-leave-group a:hover{
-	background: #FF3F3F;
+	background: #6AB2D9;
 }
 .area-comunidad #sidebar-last .block.block-tagadelic .content{
 	text-align: center;
@@ -9211,7 +9307,7 @@ body.profile-me #sidebar-last.nested .block .users-total .label{
 	background: transparent;
 	padding: 0;
 	margin: 0;
-	color: #000;
+	color: #222;
 	text-shadow: none;
 	-moz-text-shadow: none;
 	-webkit-text-shadow: none;
@@ -9235,7 +9331,7 @@ body.profile-me #sidebar-last.nested .block .users-total .label{
 .area-comunidad #content-content .block-facebook_status .title.block-title,
 .area-comunidad #content-content #block-views-activity_log_stream-block_3 .title.block-title{
 	border: none;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #222;
 	margin-bottom: 20px;
 }
 .area-comunidad #sidebar-first .block.block-views .view-arqnetwork-recent-featured a,
@@ -9345,7 +9441,7 @@ body.profile-me #sidebar-last.nested .block .users-total .label{
 .page-solr-nodetype #sidebar-first #block-views-newest_users-block_1.block td a,
 .page-solr-nodetype-multi #sidebar-first #block-views-d08d7cbb9d90f0fb0401f208b93138fe.block td a,
 .page-solr-nodetype #sidebar-first #block-views-d08d7cbb9d90f0fb0401f208b93138fe.block td a{
-	color: #000;
+	color: #222;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #sidebar-last .block-views .view-newest-users td img,
@@ -9380,7 +9476,7 @@ body.profile-me #sidebar-last.nested .block .users-total .label{
 	font-weight: bold;
 }
 .view.view-user-directory a{
-	color: #000;
+	color: #222;
 }
 #main-content .views-exposed-widgets{
 	width: auto ;
@@ -9443,7 +9539,7 @@ body.blog-type #content-group  h1.title{
 	margin-top: 20px;
 }
 .blog-type #sidebar-last .block .content li a{
-	color: #000;
+	color: #222;
 }
 .blog-type #sidebar-last .block-nodeblock .block-title, #sidebar-last .block-views .block-title{
 	border-bottom: none;
@@ -9468,8 +9564,8 @@ body.blog-type #content-group  h1.title{
 	display: none;
 }
 .blog-type .field-ds-group-ds-node-date-type-vote {
-    border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
+    border-top: 1px solid #222;
+	border-bottom: 1px solid #222;
 	padding-bottom: 18px;
 	margin-bottom: 18px;
 }
@@ -9486,14 +9582,14 @@ body.blog-type #content-group  h1.title{
 	color: #999;
 	padding-top: 20px;
 	margin-top: 20px;
-	border-top: 1px solid #000;
+	border-top: 1px solid #222;
 }
 .blog-type .field field-location{
 	font-size: 13px;
 }
 .blog-type .field-body{
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
+	border-top: 1px solid #222;
+	border-bottom: 1px solid #222;
 	margin: 20px 0;
 	padding: 20px 0;
 }
@@ -9507,7 +9603,8 @@ body.blog-type #content-group  h1.title{
 	margin: 20px 0;
 }
 .blog-type  .field-links .field-label{
-	font-family: SoinSans-Bold;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
 	font-size: 1.6em;
 	text-transform: uppercase;
 }
@@ -9573,7 +9670,7 @@ div.comment {
 	padding-bottom: 0px;
 }
 div.comment a{
-	color: #000;
+	color: #222;
 	border-top: none;
 	padding-top: 0;
 }
@@ -9615,10 +9712,12 @@ div.comment .links  a{
    color: #FFFFFF;
    display: block;
    font-size: 11px;
-   background: #000;
+   background: #222;
    padding: 3px 12px;
    text-align: center;
-   font-family: SoinSans-BoldOblique;
+   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;  
+  font-weight:bold; 
+  font-style:italic;
    text-transform: capitalize;
 }
 /*BOOK*/
@@ -9646,13 +9745,13 @@ body.book #content-content{
 	margin-bottom: 30px;
 }
 #mybook #general-info .title{
-	color: #000;
+	color: #222;
 	margin-bottom: 25px;
 	padding: 18px 0;
 }
 #mybook .buttons{
-	border-bottom: 1px solid #000;
-	border-top: 1px solid #000;
+	border-bottom: 1px solid #222;
+	border-top: 1px solid #222;
 	padding: 10px 0;
 	margin: 20px 0;
 	text-align: center;
@@ -9673,10 +9772,12 @@ body.book #content-content{
    color: #FFFFFF;
    display: block;
    font-size: 14px;
-   background: #000;
+   background: #222;
    padding: 4px 12px;
    text-align: center;
-   font-family: SoinSans-BoldOblique;
+   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;  
+  font-weight:bold; 
+  font-style:italic;
    text-transform: capitalize;
 }
 #mybook #general-info .about-me{
@@ -9710,7 +9811,7 @@ body.book #content-content{
 
 }
 #mybook .description{
-	color: #000;
+	color: #222;
 	font-size: 15px;
 	font-weight: bold;
 	margin-bottom: 15px;
@@ -9729,7 +9830,7 @@ body.book #content-content{
 #mybook #personal-info{
 	padding-bottom: 20px;
 	margin-bottom: 20px;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #222;
 	/*font-size: .9em;*/
 	line-height: 1.6em;
 }
@@ -9774,7 +9875,7 @@ body.book #content-content{
     position: absolute!important;
     width: 100%!important;
 	z-index: 1!important;
-	background-color: #000;
+	background-color: #222;
 }
 #mybook .image-contest-prize{
 	height: 40px;
@@ -9799,7 +9900,7 @@ body.book #content-content{
 	z-index: 2;
 }
 #mybook .image-title{
-	color: #000;
+	color: #222;
 }
 #mybook .image-subtitle{
 	color: #333;
@@ -9820,11 +9921,11 @@ body.book #content-content{
 	padding: 0!important;
 }
 .facebook-status-links li a, .facebook-status-links li .flag-wrapper a.flag, .fbss-comments-form .button,  .facebook-status-item .fbss-comments-show-comment-form-link {
-	background: none repeat scroll 0 0 #000000;
+	background: none repeat scroll 0 0 #222222;
     border: medium none;
     border-radius: 3px 3px 3px 3px;
     color: #FFFFFF;
-    font-family: SoinSans-Oblique !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     font-weight: bold;
     padding: 2px 12px 0px;
     text-transform: uppercase;
@@ -9832,6 +9933,7 @@ body.book #content-content{
 	height: 19px;
 	line-height: 19px;
 	display: inline-block;
+	font-style:italic;
 }
 .fbss-comments-form .button{
 	font-size: 13px;
@@ -9847,10 +9949,10 @@ padding: 8px 12px;height: 35px;
 }
 .facebook-status-comments .fbss-comments-links a{
 	float: right;
-	background: #000;
+	background: #222;
     border-radius: 3px 3px 3px 3px;
     color: #FFFFFF;
-   font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 2px 12px 0px;
    text-transform: uppercase;
 	font-size: 10px;
@@ -9929,7 +10031,7 @@ padding: 8px 12px;height: 35px;
 */
 #user-menu .logged-user-link-div {
 	position: relative;
-	font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 15px;
 }
 #user-menu .hello-user {
@@ -9952,11 +10054,11 @@ padding: 8px 12px;height: 35px;
  	display: none;
  }
  #user-menu .logged-user-links ul.links {
- 	font-family: "SoinSans-Roman", Helvetica, Arial, sans-serif;
+ 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
  	font-size: 12px;
  	background-color: #FFFFFF;
- 	border: 1px solid #000000;
- 	box-shadow: 4px 4px 0 #000000;
+ 	border: 1px solid #222222;
+ 	box-shadow: 4px 4px 0 #222222;
  	max-height: 0;
  	overflow: hidden;
  	-webkit-transition: max-height 0.5s ease-in-out;
@@ -9977,12 +10079,12 @@ padding: 8px 12px;height: 35px;
 	display: block;
  	margin: 0;
  	padding: 2px 12px;
- 	border-bottom: 1px solid #000;
- 	color: #000;
+ 	border-bottom: 1px solid #222;
+ 	color: #222;
 }
 #user-menu .logged-user-links ul.links li a:hover,
 #user-menu .logged-user-links ul.links li a:active {
-	color: #FF3F3F;
+	color: #6AB2D9;
 	text-decoration: none;
 }
 #user-menu .open-toggle {
@@ -10005,7 +10107,7 @@ padding: 8px 12px;height: 35px;
 	margin: 15px 0;
 }
 .view-arqnetwork-account-inscriptions .views-field-title-1 a{
-	color: #000;
+	color: #222;
 	/*font-size: 24px;*/
 }
 .view-arqnetwork-account-inscriptions .views-field-field-contest-image-fid{
@@ -10037,13 +10139,13 @@ padding: 8px 12px;height: 35px;
 	float: left;
 	padding-top: 20px;
 	text-align: right;	
-	font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	
 }
 
 .view-arqnetwork-account-inscriptions .views-field-phpcode-4 label{
 	display: block;
-	color: #000;
+	color: #222;
 	font-size: 14px
 }
 .view-arqnetwork-account-inscriptions .views-field-phpcode-4 .info{
@@ -10053,7 +10155,7 @@ padding: 8px 12px;height: 35px;
 
 .jquery-countdown.hasCountdown{
 	background: transparent;
-	font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	
 }
 .view-arqnetwork-account-inscriptions .views-field-field-inscription-members-imname-vname .views-field-picture{
@@ -10091,10 +10193,10 @@ padding: 8px 12px;height: 35px;
 	position: relative;
 }
 /*.view-arqnetwork-user-projects .view-content .item-list li.views-row .views-field-title{
-	position: absolute; top: 136px; height: 40px; background-color: #000; width: 100%
+	position: absolute; top: 136px; height: 40px; background-color: #222; width: 100%
 }*/
 .view-arqnetwork-user-projects .view-content .item-list li.views-row .points{
-	background-color: #000;
+	background-color: #222;
 	display: block;
 	float: none;
 	margin: 3px auto 0 auto;
@@ -10131,7 +10233,7 @@ padding: 5px; color: #fff;
 	padding: 5px;
 	position: absolute;
 	top: 0px;
-background: #000;
+background: #222;
 color: #fff;
 }
 .view-arqnetwork-user-projects .view-content div.views-row .points .views-field-value .field-content, .view-arqnetwork-user-projects .view-content div.views-row .points .views-field-comment-count .field-content{
@@ -10151,19 +10253,19 @@ color: #fff;
 	position: absolute;
 	top: 0;
 	right: 8px;
-	background-color: #000;
+	background-color: #222;
 	padding: 10px;
 	display: inline-block;
 	color: #fff;
-	font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 15px;
         opacity: 0.8 !important;
 }
 .view-arqnetwork-user-projects .view-content div.views-row .views-field-markup a{
-	color: #FF3F3F;
+	color: #6AB2D9;
 }
 .view-arqnetwork-user-projects .view-content div.views-row .views-field-field-inscription-members-imname-vname{
-	background-color: #000;
+	background-color: #222;
 	width: 672px;
 	margin-bottom: 50px;
 overflow: hidden;
@@ -10334,7 +10436,7 @@ overflow: hidden;
 	text-align: center;
 	margin-bottom: 10px;
 	padding-bottom: 10px;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #222;
 }
 .node-type-inscription .contest-info .inscription-code{
 	font-weight: bold;
@@ -10356,9 +10458,11 @@ float: left;
 .node-type-inscription .contest-info .introduction{
     margin-left: 0;
     text-align:center;
-    font-family: "SoinSans-BoldOblique", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
     margin-top: 26px;
+	  font-weight:bold;
+  font-style:italic;
 }
 
 .node-type-inscription .contest-info .inscription-state,
@@ -10366,9 +10470,11 @@ float: left;
 {
 	color: #99CC00;
 	font-size: 22px;
-	font-family: "SoinSans-BoldOblique", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin-bottom: 10px;
         line-height: 1.1em;
+		  font-weight:bold;
+  font-style:italic;
 }
 .node-type-inscription .contest-info .remember-dates{
 	font-weight: bold;
@@ -10400,8 +10506,10 @@ float: left;
 .node-type-inscription .contest-info .payment-early div.hasCountdown{
 	background: none;
 	background-color: transparent;
-	color: #000;
-	font-family: "SoinSans-BoldOblique", Helvetica, Arial, sans-serif;
+	color: #222;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  font-weight:bold;
+  font-style:italic;
 }
 .node-type-inscription .contest-info .open-contest-button a{
 	float: right;
@@ -10433,7 +10541,7 @@ float: left;
 	padding: 5px 0 10px 0;
 }
 #sidebar-last .view-event-past-events li a, #sidebar-last .view-event-latest li a{
-	color: #000;
+	color: #222;
 	background-image: none;
 	padding-left: 0;
 	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
@@ -10460,15 +10568,15 @@ float: left;
 .page-node #sidebar-last .title.block-title{
 	padding-bottom: 10px;
 	margin-bottom: 10px;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #222;
 }
 .page-node #sidebar-last .title.block-title, .page-groups #sidebar-last .title.block-title{
 	padding-bottom: 10px;
 	margin-bottom: 10px;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #222;
 }
 .page-node #sidebar-last .block-commons_core{
-	border: 1px solid #000;
+	border: 1px solid #222;
 }
 .page-node #sidebar-last #block-commons_core-group_create_content{
     border: 0 none;
@@ -10502,17 +10610,18 @@ body.page-groups #content-group{
 
 body.page-groups .views-field-subscribe a, body.page-groups .views-field-leave-group a, .og-buttons a, .view-arqnetwork-user-account-projects .item-list .views-field-edit-node a,
 .node-type-inscription .edit-delete a.delete-content-link, .node-type-inscription .subscribe-og a, .two-columns .og-manage-link, #sidebar-last .more-link a{
-	background-color: #000000 !important;
+	background-color: #6AB2D9 !important;
     border-radius: 5px 5px 5px 5px;
     color: #FFFFFF!important;
     display: inline-block;
-    font-family: SoinSans-BoldOblique !important;
-    font-size: 1.1em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+    font-size: 13px;
     font-weight: normal !important;
     height: auto;
     line-height: 1;
     padding: 8px 15px;
 	border: none;
+	font-style:italic;
 }
 
 .view-arqnetwork-user-account-projects .views-exposed-widgets{
@@ -10559,7 +10668,7 @@ line-height: 20px;
 }
 body.page-groups .sidebar-last .block-views .view-content .item-list ul li .views-field-posts-count-new .marker{
 	float: none;
-	color: #000;
+	color: #222;
 }
 body.page-groups .sidebar-last .pager{
 	margin-top: 10px;
@@ -10760,7 +10869,7 @@ body.node-type-contest #block-arquideas_generic-13 .social-sharing-widget .addth
 
 /*Styles for hightlights*/
 .highlights-date {
-  font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size:16px;
   font-weight:normal;
   line-height:120%;
@@ -10769,7 +10878,7 @@ body.node-type-contest #block-arquideas_generic-13 .social-sharing-widget .addth
   margin: 5px 0 7px 0;
 }
 .highlights-title {
-  font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size:20px;
   font-weight:normal;
   line-height:140%;
@@ -10778,7 +10887,7 @@ body.node-type-contest #block-arquideas_generic-13 .social-sharing-widget .addth
   margin-bottom: 7px;
 }
 .highlights-text {
-  font-family: "SoinSans-Roman", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size:17px;
   line-height:130%;
   color: #333;
@@ -10786,7 +10895,9 @@ body.node-type-contest #block-arquideas_generic-13 .social-sharing-widget .addth
   margin-bottom: 7px;
 }
 .highlights-info {
-  font-family: "SoinSans-BoldOblique", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
+  font-style:italic;
   font-size:16px;
   line-height:130%;
 }
@@ -10819,7 +10930,9 @@ body.node-type-contest #block-arquideas_generic-13 .social-sharing-widget .addth
 }
 blockquote{
 
-font-family:"SoinSans-Oblique";
+font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-style:italic;
+
 font-size:18px;
 line-height:100%;
 color:#666666;
@@ -10836,12 +10949,13 @@ body.blog-type #content-group h1.title{
 	padding-bottom: 0px;
 }
 .blog-type #content-content .field-links .field-body{
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #222;
 	margin-bottom: 20px;
 	padding-bottom: 20px;
 }
 .blog-type #content-content .field-links .field-label{
-	font-family: SoinSans-Bold;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
 	font-size: 1.6em;
 	text-transform: uppercase;
 }
@@ -10880,8 +10994,10 @@ body.blog-type #content-group h1.title{
 	position: absolute;
 	top: 60px;
 	right: 0;
-	font-family: SoinSans-BoldOblique!important;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif!important;
     font-size: 1.25em;
+	font-style:italic;
+	font-weight:bold;
 }
 .blog-type #content-content .field-ds-group-ds-node-date-type-vote .field-edit-content-link-widget a{
 	display: inline-block!important;
@@ -10906,7 +11022,7 @@ body.blog-type #content-group h1.title{
 .blog-type #content-content .nd-region-header .field-body{
 	padding-bottom: 20px;
 	margin-bottom: 20px;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #222;
 }
 .blog-type #content-content .nd-region-header .field-label-inline-first{
 	color: #999;
@@ -10949,16 +11065,16 @@ body.blog-type #content-group h1.title{
 }
 .booklet #likebox{
 	background: #FFFFFF;
-    border: 1px solid #000000;
+    border: 1px solid #222222;
     display: none;
     padding: 5px 5px 0 5px;
     position: absolute;
     top: 31px;
     z-index: 2;
 	width: 285px;
-    box-shadow: 2px 2px 0 #000000;
-    -moz-box-shadow: 2px 2px 0 #000000;
-    -webkit-box-shadow: 2px 2px 0 #000000;
+    box-shadow: 2px 2px 0 #222222;
+    -moz-box-shadow: 2px 2px 0 #222222;
+    -webkit-box-shadow: 2px 2px 0 #222222;
 
 }
 .lbtrigger{
@@ -10982,8 +11098,8 @@ body.page-node.node-type-group #sidebar-last{
 	width: 300px!important;
 }
 .page-node.node-type-group .full-node.node-type-group{
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
+	border-top: 1px solid #222;
+	border-bottom: 1px solid #222;
         padding: 20px 0 20px 0;
 }
 .page-node.node-type-group .full-node.node-type-group .og-image{
@@ -11044,12 +11160,14 @@ font-size: 12px
 	color: #999;
 }
 .page-node.node-type-group .full-node.node-type-group .group-members-count{
-	font-family: "SoinSans-BoldOblique", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
+  font-style:italic;
 	font-size: 1.3em;
 }
 
 .page-node.node-type-group .full-node.node-type-group .group-members-count .total{
-	font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif!important;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif!important;
 	font-size: 1.7em;
 }
 
@@ -11064,14 +11182,16 @@ font-size: 12px
     margin-top: 10px;
 }
 .page-node.node-type-group #sidebar-last #block-commons_core-group_members .group-members-link{
-	border-top: 1px solid #000;
+	border-top: 1px solid #222;
 	padding-top: 10px;
 	margin-top: 15px;
 	background-image: none;
 }
 .page-node.node-type-group #sidebar-last #block-commons_core-group_members .group-members-link a{
-	font-family: "SoinSans-BoldOblique", Helvetica, Arial, sans-serif;
-	font-size: 1.4em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
+  font-style:italic;
+	font-size: 13px;
 }
 /*Display de proyecto*/
 
@@ -11105,7 +11225,9 @@ font-size: 12px
     display: inline-block;
 	top: -7px;
 	position: relative;
-	font-family: SoinSans-BoldOblique, Helvetica, Arial, sans-serif;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;  
+  font-weight:bold; 
+  font-style: italic;
 }
 .display-project .grippie{
 	display: none;
@@ -11151,7 +11273,9 @@ font-size: 12px
 }
 .display-project .project-info-public .col01 .field-project-type-project,
 .display-project .inscription-info-public .col01 .field-project-type-project{
-	font-family: "SoinSans-Bold",Helvetica,Arial,sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
+
 }
 .display-project .project-info-public .col01 .box,
 .display-project .inscription-info-public .col01 .box{
@@ -11234,7 +11358,7 @@ font-size: 12px
     position: absolute!important;
     width: 100%!important;
 	z-index: 0;
-	background-color: #000;
+	background-color: #222;
 }
 
 .inscription-info-public .col02 .project-prize,
@@ -11252,7 +11376,8 @@ font-size: 12px
 	position: relative;
 	padding: 0 0 10px;
 	z-index: 10;
-	font-family: SoinSans-Bold;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;  
+ font-weight:bold;
         font-size: 16px;
 	text-align: right;
         display: block;
@@ -11282,7 +11407,7 @@ font-size: 12px
 	position: relative;
 	z-index: 3;
 	margin: 5%!important;
-	font-family: "SoinSans-Bold", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 2.7em;
 	line-height: 1.5;
 	height: 50%;
@@ -11341,7 +11466,7 @@ font-size: 12px
 }
 
 .view-profile-follower li .title a {
-    color: #000000;
+    color: #222222;
 }
 
 .view-profile-follower li .userpoints,.view-profile-follower li .profile-job {
@@ -11352,18 +11477,20 @@ font-size: 12px
 #contest-banner .contest-state-wrapper .open-contest-button .generic-button,
 .contest-state-wrapper .register-link-div a,
 .contest-state-wrapper a.public-votation-link{
-  font-family: "SoinSans-BoldOblique",Helvetica,Arial,sans-serif;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 5px 20px;
   color: #fff;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  text-shadow: 1px 1px 2px #000000;
+  text-shadow: 1px 1px 2px #222222;
   text-decoration: none;
   display: inline-block;
   background: #33CCCC;
   display: inline-block;
   box-shadow:none;
+   font-weight:bold;
+  font-style:italic;
 }
 
 .contest-state-wrapper .contest-state{
@@ -11381,13 +11508,13 @@ font-size: 12px
 }
 
 .facebook-status-update-main{
-   background-color: #DDDDDD;
+   background-color: #f0f0f0;
    padding: 1%;
    width: 98%; 
 }
 
 .fbsmp-plugin-icon {
-    color: #FF3F3F;
+    color: #6AB2D9;
 }
 
 #edit-photo-icon, #edit-link-icon {
@@ -11406,7 +11533,7 @@ font-size: 12px
     border-radius: 8px;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
-    background-color: #000;
+    background-color: #222;
     background-image: none;
     filter: none;
     height: auto;
@@ -11447,7 +11574,7 @@ font-size: 12px
 .display-project .link-bookmarks .flag-wrapper a,
 .display-project .link-special-arquideas-prize .flag-wrapper a{
     font-size: 14px;
-    text-shadow: 1px 1px 2px #000000;
+    text-shadow: 1px 1px 2px #222222;
 }
 
 .display-project .col01 .box {
@@ -11457,7 +11584,7 @@ font-size: 12px
 .display-project .col01 .box h2.title{
     font-weight: normal;
     font-size: 16px;
-    color: #000;
+    color: #222;
     padding: 0 10px;
 }
 
@@ -11466,7 +11593,7 @@ font-size: 12px
 } 
 
 .display-project .project-prize .inner{
-    background-color: #000000;
+    background-color: #222222;
     opacity: 0.8 !important;
     padding: 10px;
     font-size: 18px;
@@ -11637,10 +11764,10 @@ body.area-social #sidebar-last.nested #block-views-8b6b3376f984196abba62dfb8dfce
 
 /*Messages*/
 .error {
-    color: #FF3F3F;
+    color: #6AB2D9;
 }
 div.error {
-    border: 1px solid #FF3F3F;
+    border: 1px solid #6AB2D9;
 }
 div.error, tr.error {
     background: none repeat scroll 0 0 #FF8D8A;
@@ -11822,11 +11949,13 @@ div.ok, tr.ok {
 
 .personal_notes > .title{
     font-size: 18px;
-    font-family: "SoinSans-Roman",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+
 }
 .personal_notes > .note{
     color: #FFF;
-    font-family: "SoinSans-Roman",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+
     font-size: 14px;
 }
 
