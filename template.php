@@ -368,6 +368,30 @@ function ieprod_preprocess_page(&$vars)
   if (preg_match('/^solr_nodetype_multi\//',$_GET['q']) == 1) {
       $vars['show_breadcrumb'] = FALSE;
   }
+  //Some additional variables for solution
+  if(variable_get('arquideas_solution_mode', FALSE)){
+    $m_code = '<div class="arquideas-solution-logo"><img src="'.drupal_get_path('theme',$GLOBALS['theme']).'/images/solution/arquideas-solution.png" title="" /></div>';
+      
+    $vars['header_top'] = $m_code . $vars['header_top'];
+    $vars['header_top_following'] = $m_code . $vars['header_top_following'];
+
+    $imageurl = drupal_get_path('theme',$GLOBALS['theme']).'/images/solution/managed-by-arquideas.png';
+    $imagehtml = theme_image($imageurl,t('Managed by Arquideas'),t('Managed by Arquideas'));
+    $loptions = array(
+      'attributes' => array(
+        'class' => 'managed-by-arquideas',
+        'title' => t('Managed by Arquideas'),
+        'target'=>'_blank',  
+      ),
+      'html' => TRUE,  
+    );
+
+    $m_managed = '<div class="arquideas-managed-logo">';
+    $m_managed .= l($imagehtml,"http://www.arquideas.net",$loptions);
+    $m_managed .= '</div>';
+    
+    $vars['footer'] = $m_managed . $vars['footer'];
+  }
 }
 
 /**
@@ -750,6 +774,16 @@ function ieprod_preprocess_block($variables) {
                 $variables['block']->subject = t('Wall of %s',array('%s'=>$obj->title));
             }    
           }
+      }
+      //Powered by block
+      if($variables['block']->module=='powered_by_nivaria' && $variables['block']->delta==0){
+         if(variable_get('arquideas_solution_mode', FALSE)){
+             $imageurl = variable_get('niv_project_by_img', NULL);
+             $imagenew = drupal_get_path('theme',$GLOBALS['theme']).'/images/solution/solution-by-arquideas-nivaria.png';
+             $variables['block']->content = str_replace($imageurl, $imagenew, $variables['block']->content);
+             $variables['block']->content = preg_replace('/width="\d+"/', '', $variables['block']->content);
+             $variables['block']->content = preg_replace('/height="\d+"/', '', $variables['block']->content);
+         } 
       }
   }
 }
