@@ -223,9 +223,7 @@ padding: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   background-color: #FFFFFF;
-  border: 1px solid #222222;
-  box-shadow: 4px 4px 0 #222222;
-  max-height: 0;
+  border: 1px solid #222222;max-height: 0;
   overflow: hidden;
 
   -webkit-transition: max-height 0.5s ease-in-out;
@@ -1236,6 +1234,18 @@ background-color: transparent;
 padding: 10px;
 border-color: #222;
 }
+
+.register-description {
+	font-family: helvetica neue;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    padding: 5px 0 20px;
+    text-align: center;
+	color:#999999;
+	
+	}
+
 fieldset legend {
 }
 fieldset legend, legend.collapse-processed, legend.collapse-processed a:link, legend.collapse-processed a:visited {
@@ -3588,7 +3598,7 @@ padding-top: 6px;
 }
 .views-field-last-updated a, .views-field-last-updated h2, .views-field-title a, .views-field-title a h2 {
 color: #6AB2D9;
-font-weight: normal;
+font-weight: 300;
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .view.view-arqnetwork-group-detail-by-cat .view-content .views-field-title a {
@@ -6757,8 +6767,8 @@ body.node-type-contest .node-content-main {
 
 #quicktabs-quicktabs_contest_closed .quicktabs_tabs,
 #quicktabs-quicktabs_contest_open .quicktabs_tabs {
-  border: 1px solid #222;
-  display: block;
+/*  border: 1px solid #222;
+*/  display: block;
   height: 40px;
   left: 3px;
   margin: 0;
@@ -7515,8 +7525,8 @@ body.node-type-inscription-1 #breadcrumbs {
 }
 .view-jury-partners-co .views-field-title .field-content a{
 	  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	  color:#333333;
-}
+/*	  color:#333333;
+*/}
 .view-jury-members .views-field-field-short-description-value,
 .view-jury-partners-co .views-field-field-short-description-value {
   color: #999;
@@ -7885,7 +7895,6 @@ width: 47%;
 
   background-color: #FFFFFF;
   border: 1px solid #222222;
-  box-shadow: 4px 4px 0 #222222;
   padding: 15px 20px;
 }
 
@@ -7896,14 +7905,13 @@ width: 32%;
 
   background-color: #FFFFFF;
   border: 1px solid #222222;
-  box-shadow: 4px 4px 0 #222222;
   padding: 15px 20px;
   text-align: center;
 }
 #TB_window #user-register,
 .login-wrapper, .forgot-wrapper {
-width: 90%;
-margin: 20px 5% 0 5%;
+width: 98%;
+margin: 20px 1% 0 5%;
 float: left;
 }
 
@@ -8159,7 +8167,7 @@ a.public-vote-link,
 .node-type-inscription .contest-info .open-contest-button a,
 .prev-project a, .next-project a, 
 .page-full-view .views_slideshow_singleframe_slide .flag-wrapper .flag.unflag-action{
-background: #33CCCC;
+background: #6AB2D9;
 margin-right: 10px;
   display: inline-block;
 }
@@ -8224,7 +8232,7 @@ form input.form-submit:focus, .views-exposed-form .views-exposed-widget input.fo
  .contest-state-wrapper .register-link-div a:hover,
  .contest-state-wrapper a.public-votation-link:hover,
  .page-full-view .views_slideshow_singleframe_slide .flag-wrapper .flag:hover{
-background-color: #FF9475;
+background-color: #FF7425;
 background-image: none;
 text-decoration: none;
 }
@@ -8274,11 +8282,11 @@ body.area-social  h1.title, body.page-node.area-social  h1.title {
     float: left;
     font-weight: normal;
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;  
- font-weight:bold;
-    font-size: 28px;
+ font-weight:lighter;
+    font-size: 34px;
     max-width:508px;
-    width:508px;
-}
+/*    width:508px;
+*/}
 body.area-social td{
 	padding: 0!important
 }
@@ -8286,13 +8294,22 @@ table tr td.active{
 	max-width: 183px;
 }
 .name-holder{
-	padding: 10px 0 10px 20px;
+	padding: 10px 0 0px 20px;
 	/*margin-left: -24px;*/
-	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
-	margin-bottom: 8px;
+	/*border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;*/
+	margin: 20px 0;
+
 
 }
+
+ .follow-box{
+	 
+	 display:none;
+	 
+	 
+	 }
+
 .name-holder .follow-box{
 	margin: -10px 0 -10px 520px;
 	min-width: 150px;
@@ -8380,8 +8397,8 @@ header .addthis_toolbox, header .widget-header{
  font-weight:bold;
 	border: 0;
 	width: 690px;
-	height: 44px;
-}
+/*	height: 44px;
+*/}
 
 .account-edit.area-social #content-tabs ul.primary, .account-edit.area-social .name-holder{
 	/*margin-left: -24px;
@@ -8459,7 +8476,7 @@ ul.primary.ui-tabs-nav{
 	background-position: top right;
 }
 #main-group.grid16-12.force_width  #main-content, #main-group.forms_user #main-content{
-	border: 1px solid #ccc;
+	border:#FFFFFF;;
 	border-top: none;
 }
 #main-group.grid16-12.force_width  #main-content{
@@ -10057,9 +10074,7 @@ padding: 8px 12px;height: 35px;
  	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
  	font-size: 12px;
  	background-color: #FFFFFF;
- 	border: 1px solid #222222;
- 	box-shadow: 4px 4px 0 #222222;
- 	max-height: 0;
+ 	border: 1px solid #222222;max-height: 0;
  	overflow: hidden;
  	-webkit-transition: max-height 0.5s ease-in-out;
  	-moz-transition: max-height 0.5s ease-in-out;
@@ -11478,7 +11493,7 @@ font-size: 12px
 .contest-state-wrapper .register-link-div a,
 .contest-state-wrapper a.public-votation-link{
   font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding: 5px 20px;
+  padding: 8px 20px;
   color: #fff;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -11486,11 +11501,12 @@ font-size: 12px
   text-shadow: 1px 1px 2px #222222;
   text-decoration: none;
   display: inline-block;
-  background: #33CCCC;
+  background: #6AB2D9;
   display: inline-block;
   box-shadow:none;
-   font-weight:bold;
+   font-weight:400;
   font-style:italic;
+  font-size:16px;
 }
 
 .contest-state-wrapper .contest-state{
