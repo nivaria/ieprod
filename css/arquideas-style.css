@@ -4629,7 +4629,7 @@ border: 1px solid #EE7A19;
 color: #FFFFFF;
 }
 .views-field-subscribe a:hover {
-background-color: #FF7425;
+background-color: #FF9475;
 text-decoration: none;
 }
 .img-left {
@@ -5804,11 +5804,11 @@ body.page-home #content-front-right .block {
 
 #block-views-slideshow_content-block_1 .views-field-title,
 #block-views-slideshow_content-block_1 .views-field-title a {
-  margin-top: 20px;
+  margin: 22px 0 10pxx;
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 color: #fff;
-font-weight: normal;
-font-size: 36px;
+font-weight: 100;
+font-size: 48px;
 line-height: 46px;
 text-transform: uppercase;
 }
@@ -5818,8 +5818,8 @@ text-transform: uppercase;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
 
   font-weight: 200;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 /* Front page Contests */
@@ -8232,7 +8232,7 @@ form input.form-submit:focus, .views-exposed-form .views-exposed-widget input.fo
  .contest-state-wrapper .register-link-div a:hover,
  .contest-state-wrapper a.public-votation-link:hover,
  .page-full-view .views_slideshow_singleframe_slide .flag-wrapper .flag:hover{
-background-color: #FF7425;
+background-color: #FF9475;
 background-image: none;
 text-decoration: none;
 }
