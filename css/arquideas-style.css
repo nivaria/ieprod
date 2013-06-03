@@ -8298,7 +8298,7 @@ table tr td.active{
 	/*margin-left: -24px;*/
 	/*border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;*/
-	margin: 20px 0;
+	margin: 50px 0 10px;
 
 
 }
@@ -8928,7 +8928,7 @@ body.page-user #main-inner #sidebar-first #sidebar-first-inner, body.page-user-1
 	border-left: 1px solid #ccc;
 }
 body.area-social #sidebar-last.nested{
-	margin: 0 -1px;
+	margin: 16px -1px 0;
 	width: 240px!important;
 }
 
@@ -10795,7 +10795,8 @@ body.node-type-contest #block-arquideas_generic-13 .social-sharing-widget .addth
 .area-social .header .userpoints {
     width: 300px;
     float: left;
-    display: inline-block;  
+    display: inline-block;
+    margin-bottom: 72px;
 }
 .area-social .header .userpoints .user-job{
     margin: 4px 0 0 0;
