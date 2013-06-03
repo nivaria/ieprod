@@ -147,6 +147,7 @@ M�s cambios en la fila 200,
                    <header class="header row nested grid16-12">
                        <div class="name-holder clearfix">
 						<h1 class="title"><?php print $title; ?></h1>
+                                          <?php if(!variable_get('arquideas_solution_mode', FALSE)): ?>
 						<div class="follow-box">
 							<div class="follow-box-inner">
 <?php if(isset($account)){
@@ -176,6 +177,7 @@ M�s cambios en la fila 200,
                        } ?>
 					   		</div>
 					   	 </div>
+                                                <?php endif; ?>
 					   </div>
                        <!--TODO: make it with some include -->
                        <?php if(!$is_edit): ?>
@@ -205,10 +207,12 @@ M�s cambios en la fila 200,
                        </div>
                        <?php endif; ?>
                        <?php
-                           $block = module_invoke('arquideas_generic', 'block', 'view', '13');
-                           print '<div id="block-arquideas_generic-13" class="block block-arquideas_generic"><div class="inner"><div class="content">';
-                           print $block['content'];
-                           print '</div></div></div>';
+                           if(!variable_get('arquideas_solution_mode', FALSE)){
+                             $block = module_invoke('arquideas_generic', 'block', 'view', '13');
+                             print '<div id="block-arquideas_generic-13" class="block block-arquideas_generic"><div class="inner"><div class="content">';
+                             print $block['content'];
+                             print '</div></div></div>';
+                           }   
                        ?>
                        <?php endif; ?>
 			<div class="clear"></div>
