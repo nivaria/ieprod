@@ -370,7 +370,7 @@ function ieprod_preprocess_page(&$vars)
   }
   //Some additional variables for solution
   if(variable_get('arquideas_solution_mode', FALSE)){
-    $m_code = '<div class="arquideas-solution-logo"><img src="'.drupal_get_path('theme',$GLOBALS['theme']).'/images/solution/arquideas-solution.png" title="" /></div>';
+    $m_code = '<div class="arquideas-solution-logo">'.theme_image(drupal_get_path('theme',$GLOBALS['theme']).'/images/solution/arquideas-solution.png',t('Arquideas Solution'),t('Arquideas Solution')).'</div>';
       
     $vars['header_top'] = $m_code . $vars['header_top'];
     $vars['header_top_following'] = $m_code . $vars['header_top_following'];
