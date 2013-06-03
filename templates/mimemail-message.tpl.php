@@ -93,15 +93,27 @@ global $base_url;
                 </td>
               </tr>
               <tr>
-                <td width="193" align="left" valign="middle">
-                  <a href="<?php print $base_url; ?>/home" style="color: #999999;">Copyright Arquideas 2012</a>
-                </td>
-                <td width="193" align="center" valign="middle">
-                  <a href="<?php print $base_url; ?>/home" style="color: #FF3F3F;">www.arquideas.net</a>
-                </td>
-                <td width="193" align="right" valign="middle">
-                  <a href="http://www.nivaria.com" title="Nivaria"><img src="<?php print $base_url . '/'. path_to_theme();?>/images/nws_by_nivaria.png" alt="Nivaria" /></a>
-                </td>
+                <?php if(variable_get('arquideas_solution_mode', FALSE)): ?>
+                    <td width="193" align="left" valign="middle">
+                        <a href="http://www.arquideas.net/node/24409" title="Arquideas Solution"><img src="<?php print $base_url . '/'. path_to_theme();?>/images/solution/arquideas-solution.png" alt="Arquideas Solution" /></a>
+                    </td>
+                    <td width="193" align="center" valign="middle">
+                        <a href="http://www.arquideas.net" style="color: #999999;">Copyright Arquideas 2012</a>
+                    </td>
+                    <td width="193" align="right" valign="middle">
+                        <a href="http://www.nivaria.com" title="solution by Arquideas and Nivaria"><img src="<?php print $base_url . '/'. path_to_theme();?>/images/solution/solution-by-arquideas-nivaria.png" alt="solution by Arquideas and Nivaria" /></a>
+                    </td>
+                <?php else: ?>  
+                    <td width="193" align="left" valign="middle">
+                      <a href="<?php print $base_url; ?>/home" style="color: #999999;">Copyright Arquideas 2012</a>
+                    </td>
+                    <td width="193" align="center" valign="middle">
+                      <a href="<?php print $base_url; ?>/home" style="color: #FF3F3F;">www.arquideas.net</a>
+                    </td>
+                    <td width="193" align="right" valign="middle">
+                      <a href="http://www.nivaria.com" title="Nivaria"><img src="<?php print $base_url . '/'. path_to_theme();?>/images/nws_by_nivaria.png" alt="Nivaria" /></a>
+                    </td>
+                <?php endif; ?>
               </tr>
               <tr>
                 <td>
