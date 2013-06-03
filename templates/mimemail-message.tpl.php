@@ -55,7 +55,11 @@ global $base_url;
                      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home',array(),!empty($recipient->language)?$recipient->language:NULL); ?>" /></a>
                     </div>
                     <div class="slogan" style="font-weight:bold; font-style:italic; color: #000000;">
-                        <?php print $slogan; ?>
+                        <?php if(variable_get('arquideas_solution_mode', FALSE)): ?>
+                            <?php print variable_get('site_slogan', $slogan); ?>
+                        <?php else: ?>
+                            <?php print $slogan; ?>
+                        <?php endif; ?>
                     </div>
                   <?php endif; ?>
                 </td>
