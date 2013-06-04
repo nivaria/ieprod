@@ -12148,3 +12148,8 @@ div.ok, tr.ok {
 .arquideas-managed-logo {
   float: left;  
 }
+
+.node-type-inscription .contest-info .jquery-countdown.hasCountdown,
+#view-id-arqnetwork_account_inscriptions-page_1 .jquery-countdown.hasCountdown{
+    backgroud-color: transparent !important;
+}
