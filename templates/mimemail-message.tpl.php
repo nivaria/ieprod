@@ -82,7 +82,7 @@ global $base_url;
                 <td align="center" valign="top" style="color: #000000;padding:12px 0 0;"><?php print t('Hello, !user',array('!user'=> $username),$userlang); ?></td>
               </tr>
               <?php endif; ?>
-              <tr>
+              <tr <?php print empty($username)?"style=\"padding-top:12px;\"":""; ?>>
                 <td align="left" valign="top" style="color: #666666; font-size: 16px;"><?php print $body; ?></td>
               </tr>
             </table>
