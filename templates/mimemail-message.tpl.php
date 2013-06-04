@@ -83,7 +83,7 @@ global $base_url;
               </tr>
               <?php endif; ?>
               <tr <?php print empty($username)?"style=\"padding-top:12px;\"":""; ?>>
-                <td align="left" valign="top" style="color: #666666; font-size: 16px;"><?php print $body; ?></td>
+                <td align="left" valign="top" style="color: #666666; font-size: 16px;"><?php print (empty($username)?'<br/>':'').$body; ?></td>
               </tr>
             </table>
           </td>
