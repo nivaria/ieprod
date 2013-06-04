@@ -12153,3 +12153,8 @@ div.ok, tr.ok {
 #view-id-arqnetwork_account_inscriptions-page_1 .jquery-countdown.hasCountdown{
     background-color: transparent !important;
 }
+
+#edit-field-inscription-files-62-0-data-value-wrapper label,
+#edit-field-inscription-files-61-0-data-value-wrapper label {
+    display: none;
+}
