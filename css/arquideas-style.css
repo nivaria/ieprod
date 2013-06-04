@@ -6525,7 +6525,8 @@ body.page-finished-contests #content-region h2.block-title {
 .contests-view .info,
 .contests-view .field-contest-public,
 .contests-view .field-delivery-limit-date,
-.contests-view .field-registration-limit-date {
+.contests-view .field-registration-limit-date,
+.contests-view .field-registration-interval-free {
   color: #fff;
   display: block;
   width: 210px;
@@ -6683,6 +6684,10 @@ text-align: center;
   font-size: 14px;
   font-weight: normal;
   padding-left: 27px;
+}
+
+#contest-banner .content-stats .field .field-label {
+    display: none;
 }
 
 .jquery-countdown.hasCountdown {
@@ -10508,10 +10513,12 @@ float: left;
 	font-size: 14px;
 	padding-bottom: 8px;
 }
-.node-type-inscription .contest-info .field-registration-limit-date{
+.node-type-inscription .contest-info .field-registration-limit-date,
+.node-type-inscription .contest-info .field-registration-interval-free{
 	display: inline-block;
 }
-.node-type-inscription .contest-info .field-registration-limit-date .countdown_amount {
+.node-type-inscription .contest-info .field-registration-limit-date .countdown_amount,
+.node-type-inscription .contest-info .field-registration-interval-free .countdown_amount{
     font-size: 18px;
 }
 .node-type-inscription .contest-info .payment-early div{
@@ -11436,6 +11443,7 @@ font-size: 12px
 .view-contests .odd,
 .field-delivery-limit-date .odd,
 .field-registration-limit-date .odd, 
+.field-registration-interval-free .odd,
 .field-early-registration .odd{
 	background-color: transparent;
 }
