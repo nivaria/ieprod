@@ -396,7 +396,7 @@ jqRel.appendTo(jqNodeForm.find("div.node-form-cols")).css("width","25%").css("fl
                 }
                 //Invite users page buttons
                 if($("#og-invite-link-invite-page-form").length){
-                    $("#block-arquideas_generic-16").appendTo("#og-invite-link-invite-page-form");
+                    $("#block-arquideas_generic-16").appendTo("#og-invite-link-invite-page-form > div");
                 }
 
 });
