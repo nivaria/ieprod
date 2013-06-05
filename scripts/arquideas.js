@@ -394,6 +394,11 @@ jqRel.appendTo(jqNodeForm.find("div.node-form-cols")).css("width","25%").css("fl
                         }
                     });
                 }
+                //Invite users page buttons
+                if($("#og-invite-link-invite-page-form").length){
+                    $("#block-arquideas_generic-16").appendTo("#og-invite-link-invite-page-form");
+                }
+
 });
 
 $(window).load(function(){
@@ -458,5 +463,4 @@ $(window).load(function(){
     if($("#pid-user-password").length){
         $("#pid-user-password #user-pass .user-password-fs").removeClass("collapsed");
     }
-    
 });
