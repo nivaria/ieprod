@@ -397,7 +397,7 @@ jqRel.appendTo(jqNodeForm.find("div.node-form-cols")).css("width","25%").css("fl
 });
 
 $(window).load(function(){
-	var max = Math.max.apply(Math, $(".scrollable").children().map(
+    var max = Math.max.apply(Math, $(".scrollable").children().map(
       function(){
         return $(this).height();
       }
@@ -441,5 +441,8 @@ $(window).load(function(){
       $("#block-arquideas_generic-13 .widget-body .addthis_toolbox > .fb_send").css("width",w);
       $("#block-arquideas_generic-13 .widget-body .addthis_toolbox .addthis_toolbox_item > .fb-like").css("width",w);
       $("#block-arquideas_generic-13 .widget-body .addthis_toolbox .addthis_toolbox_item > iframe").css("height","20px");
-    }    
+    }
+    if($("#view-id-contest_inscriptions_juryvotes-page_1").length){
+        $("#view-id-contest_inscriptions_juryvotes-page_1 .view-filters .views-exposed-form").removeClass("collapsed");
+    }
 });
