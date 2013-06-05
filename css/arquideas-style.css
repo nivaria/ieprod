@@ -142,7 +142,7 @@ body.admin-menu #header-small-wrapper {
 #header-region-following {
   background-color: #fff;
   z-index: 998;
-  margin-bottom: 40px;
+  margin-bottom: 16px;
 }
 
 #header-region-following.fixed-menu {
@@ -272,7 +272,7 @@ width: 280px;
 #header-large-wrapper {
   text-align: center;
   position: relative;
-  height: 180px;
+  height: 136px;
   overflow: hidden;
 }
 body.logged-in #header-large-wrapper {
@@ -3415,7 +3415,7 @@ width: 100%;
   margin: 0;
 }
 #main .block {
-margin-bottom: 30px;
+margin-bottom: 16px;
 }
 .field-ds-group-ds-node-date-type-vote .field {
 display: inline;
@@ -5270,7 +5270,7 @@ padding: 3px;
 
 /* Skinr Styles */
 .front-page-block {
-  margin-top: 50px;
+  margin-top: 0;
 }
 
 .front-page-block:before {
@@ -5291,7 +5291,7 @@ padding: 3px;
     font-size: 38px;
     font-weight: 200;
     line-height: 36px;
-    margin-top: 60px;
+    margin-top: 16px;
     text-align: center; 
   
 }
@@ -5300,7 +5300,7 @@ padding: 3px;
 .front-page-block .subtitle {
   font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
-  padding-bottom: 40px;
+  padding-bottom: 16px;
   margin: 0;
   font-size: 20px;
   color: #999;
@@ -5320,7 +5320,7 @@ body.page-news #main-content-inner > h3.subtitle {
 }
 
 .front-page-block .content {
-  margin-top: 40px;
+  margin-top: 16px;
 }
 
 #sidebar-last .single-border-block > .inner,
@@ -5948,7 +5948,7 @@ text-transform: uppercase;
 
 /* Front page Network View */
 #block-views-activity_log_stream-block_2 .view-content {
-  margin-bottom: 40px;
+  margin-bottom: 16px;
 }
 
 .activity-log-picture,
@@ -6351,7 +6351,7 @@ text-transform: uppercase;
 
 #block-nodeblock-224 .content {
   width: 810px;
-  margin: 40px auto 0;
+  margin: 0 auto 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
  font-weight:bold;
 
@@ -12168,4 +12168,12 @@ div.ok, tr.ok {
 #edit-field-inscription-files-62-0-data-value-wrapper,
 #edit-field-inscription-files-61-0-data-value-wrapper{
     display: none;
+}
+
+.front .main {
+    margin-bottom: 0;
+}
+
+.front .main .main-inner {
+    padding: 14px 0 0;
 }
