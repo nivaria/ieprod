@@ -12204,3 +12204,12 @@ div.ok, tr.ok {
 #view-id-arqnetwork_account_inscriptions-page_1 .views-field-phpcode-4 .field-registration-interval-free .jquery-countdown.hasCountdown {
     background-color: transparent !important;
 }
+#og-invite-link-invite-page-form #edit-submit {
+   margin-left: 380px; 
+}
+#og-invite-link-invite-page-form #block-arquideas_generic-16{
+    margin-top: 0;
+}
+#og-invite-link-invite-page-form .back-contest a{
+     padding: 10px 15px;
+}
