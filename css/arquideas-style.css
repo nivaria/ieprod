@@ -8226,6 +8226,7 @@ a.contest-unfollow-link {
 
 /* Hover state of buttons */
 a.participate-link:hover,
+a.user-unsubscribe-link:hover,
 #view-id-contests-page_2 .register-link-div a:hover,
 .contest-winners .views-field-view-node a:hover,
 .join-us-link-div a:hover,
