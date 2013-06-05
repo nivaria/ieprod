@@ -454,5 +454,9 @@ $(window).load(function(){
     imgcode += "<area shape=\"rect\" coords=\"138,0,216,22\" href=\"http://www.nivaria.com\" alt=\"Nivaria\" target=\"_blank\" >";
     imgcode += "</map>";
     $("#block-powered_by_nivaria-0 .content > a.nivaria").replaceWith(imgcode);
+    //Request password page
+    if($("#pid-user-password").length){
+        $("#pid-user-password #user-pass .user-password-fs").removeClass("collapsed");
+    }
     
 });

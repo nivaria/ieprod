@@ -12177,3 +12177,16 @@ div.ok, tr.ok {
 .front .main .main-inner {
     padding: 14px 0 0;
 }
+
+#pid-user-password .name-holder {
+   margin: 0 0 12px;
+   padding: 0;
+}
+
+#pid-user-password .area-social .header .userpoints {
+   display: none; 
+}
+
+#pid-user-password .grid16-16.force_width.border {
+    margin-top: -17px;
+}
