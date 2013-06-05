@@ -4965,7 +4965,7 @@ top: 28px;
 width: 348px;
 z-index: 100;
 }
-.page-full-view .inner.content #view-id-contest_inscriptions_juryvotes-page_1 .view-filters .fieldset-wrapper{
+.page-full-view #view-id-contest_inscriptions_juryvotes-page_1 .inner.content .view-filters .fieldset-wrapper{
     position: relative;
     top:0;
     float:left;
