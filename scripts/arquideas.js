@@ -450,8 +450,8 @@ $(window).load(function(){
     $("#block-powered_by_nivaria-0 .content > a.nivaria > img").attr("usemap","#solutionmap");
     var imgcode = $("#block-powered_by_nivaria-0 .content > a.nivaria").html();
     imgcode += "<map name=\"solutionmap\">";
-    imgcode += "<area shape=\"rect\" coords=\"0,0,138,22\" href=\"http://www.arquideas.net\" alt=\"Arquideas\">";
-    imgcode += "<area shape=\"rect\" coords=\"138,0,216,22\" href=\"http://www.nivaria.com\" alt=\"Nivaria\">";
+    imgcode += "<area shape=\"rect\" coords=\"0,0,138,22\" href=\"http://www.arquideas.net\" alt=\"Arquideas\" target=\"_blank\" >";
+    imgcode += "<area shape=\"rect\" coords=\"138,0,216,22\" href=\"http://www.nivaria.com\" alt=\"Nivaria\" target=\"_blank\" >";
     imgcode += "</map>";
     $("#block-powered_by_nivaria-0 .content > a.nivaria").replaceWith(imgcode);
     
