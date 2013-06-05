@@ -442,7 +442,17 @@ $(window).load(function(){
       $("#block-arquideas_generic-13 .widget-body .addthis_toolbox .addthis_toolbox_item > .fb-like").css("width",w);
       $("#block-arquideas_generic-13 .widget-body .addthis_toolbox .addthis_toolbox_item > iframe").css("height","20px");
     }
+    //Filter in Jury votes page
     if($("#view-id-contest_inscriptions_juryvotes-page_1").length){
         $("#view-id-contest_inscriptions_juryvotes-page_1 .view-filters .views-exposed-form").removeClass("collapsed");
     }
+    //Footer solution by image
+    $("#block-powered_by_nivaria-0 .content > a.nivaria > img").attr("usemap","#solutionmap");
+    var imgcode = $("#block-powered_by_nivaria-0 .content > a.nivaria").html();
+    imgcode += "<map name=\"solutionmap\">";
+    imgcode += "<area shape=\"rect\" coords=\"0,0,138,22\" href=\"http://www.arquideas.net\" alt=\"Arquideas\">";
+    imgcode += "<area shape=\"rect\" coords=\"138,0,216,22\" href=\"http://www.nivaria.com\" alt=\"Nivaria\">";
+    imgcode += "</map>";
+    $("#block-powered_by_nivaria-0 .content > a.nivaria").replaceWith(imgcode);
+    
 });

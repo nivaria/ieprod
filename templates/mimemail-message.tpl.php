@@ -105,7 +105,11 @@ global $base_url;
                         <a href="http://www.arquideas.net" style="color: #999999;">Copyright Arquideas 2012</a>
                     </td>
                     <td width="193" align="right" valign="middle">
-                        <a href="http://www.nivaria.com" title="solution by Arquideas and Nivaria"><img src="<?php print $base_url . '/'. path_to_theme();?>/images/solution/solution-by-arquideas-nivaria.png" alt="solution by Arquideas and Nivaria" /></a>
+                        <img src="<?php print $base_url . '/'. path_to_theme();?>/images/solution/solution-by-arquideas-nivaria.png" alt="solution by Arquideas and Nivaria" usemap="#solutionmap" />
+                        <map name="solutionmap">
+                            <area shape="rect" coords="0,0,138,22" href="http://www.arquideas.net" alt="Arquideas">
+                            <area shape="rect" coords="138,0,216,22" href="http://www.nivaria.com" alt="Nivaria">
+                        </map>
                     </td>
                 <?php else: ?>  
                     <td width="193" align="left" valign="middle">
