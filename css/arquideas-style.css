@@ -6643,7 +6643,7 @@ body.page-finished-contests #content-region h2.block-title {
   width: 430px;
   padding: 10px 10px 0 10px;
   min-height: 65px;
-  border-right: 1px solid #333333;
+  border-right: 1px solid #666666;
 }
 
 #content-group #contest-banner .contest-titles h1.title {
@@ -6666,7 +6666,7 @@ text-align: center;
   width: 200px;
   padding: 5px 20px;
   min-height: 65px;
-  border-right: 1px solid #333333;
+  border-right: 1px solid #666666;
 }
 
 
