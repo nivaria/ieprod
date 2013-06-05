@@ -3730,11 +3730,11 @@ body.no-sidebars #content-group {
   margin: 0 auto;
 }
 body.node-type-page #content-group,
-body#pid-content-contact #content-group,
 body.page-cart #content-group {
   float: none;
 }
-body.node-type-page #content-group{
+body.node-type-page #content-group,
+body#pid-content-contact #content-group{
 	float: left;
 }
 body.no-sidebars #content-group h1.title {
