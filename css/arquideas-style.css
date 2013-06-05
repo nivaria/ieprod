@@ -12183,7 +12183,7 @@ div.ok, tr.ok {
    padding: 0;
 }
 
-#pid-user-password .area-social .header .userpoints {
+#pid-user-password.area-social .header .userpoints {
    display: none; 
 }
 
