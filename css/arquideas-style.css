@@ -5039,6 +5039,7 @@ height: 24px;
 width: 24px;
 }
 .header div.userpoints div.user_badges {
+display: inline-block;    
 float: left;
 }
 .preselect-mark {
@@ -10811,8 +10812,14 @@ body.node-type-contest #block-arquideas_generic-13 .social-sharing-widget .addth
     display: inline-block;
     margin-bottom: 72px;
 }
+.area-social .header .userpoints .user-points {
+   display: inline-block;
+   margin-left: 12px;
+   float: left; 
+}
 .area-social .header .userpoints .user-job{
-    margin: 4px 0 0 0;
+    display: inline-block;
+    margin: -8px 0 0 25px;
     float: left;
 }
 
@@ -12189,4 +12196,11 @@ div.ok, tr.ok {
 
 #pid-user-password .grid16-16.force_width.border {
     margin-top: -17px;
+}
+
+#view-id-arqnetwork_account_inscriptions-page_1 .views-field-phpcode-4 .field-registration-interval-free .field-label {
+    display: none;
+}
+#view-id-arqnetwork_account_inscriptions-page_1 .views-field-phpcode-4 .field-registration-interval-free .jquery-countdown.hasCountdown {
+    background-color: transparent !important;
 }
