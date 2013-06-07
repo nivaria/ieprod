@@ -294,7 +294,11 @@ M�s cambios en la fila 200,
                                             $msg_valid = '';
                                             if($user->uid==$account->uid && $user->uid!=0){
                                                 if(user_has_role('not-validated user',$account)){
-                                                    $msg_valid = t('Welcome to arquideas!<br/>Your account has been created successfully, but you need validate it.<br/>Please check your e-mail and click validation link.<br/>If you do not validate your account, it will be deleted.'); 
+                                                    if(!variable_get('arquideas_solution_mode', FALSE)){
+                                                      $msg_valid = t('Welcome to arquideas!<br/>Your account has been created successfully, but you need validate it.<br/>Please check your e-mail and click validation link.<br/>If you do not validate your account, it will be deleted.'); 
+                                                    } else {
+                                                      $msg_valid = t('Your account has been created successfully, but you need validate it.<br/>Please check your e-mail and click validation link.<br/>If you do not validate your account, it will be deleted.');   
+                                                    }  
                                                 }
                                             }
                                        ?>
