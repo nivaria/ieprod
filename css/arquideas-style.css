@@ -12214,3 +12214,7 @@ div.ok, tr.ok {
 #og-invite-link-invite-page-form #block-arquideas_generic-16 a.back-button{
      padding: 10px 15px;
 }
+body.account-edit #node-form div div.personal-data,
+body.account-edit #node-form div div.contact-data{
+    visibility: hidden;
+}
