@@ -1,3 +1,5 @@
+/* Andriy+bea */
+
 body {
 font-family:  Arial, sans-serif;
 font-size: 87.5%;
@@ -3417,6 +3419,18 @@ width: 100%;
 #main .block {
 margin-bottom: 16px;
 }
+
+/*Home Bloks separation*/
+
+#block-views-slideshow_content-block_1{
+	margin-bottom: 76px;
+	margin-top:20px;
+}
+ #block-views-activity_log_stream-block_2,#block-nodeblock-224, #block-views-news-block_4 {
+	margin-top: 76px;
+}
+
+
 .field-ds-group-ds-node-date-type-vote .field {
 display: inline;
 float: left;
@@ -5815,8 +5829,8 @@ body.page-home #content-front-right .block {
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 color: #fff;
 font-weight: 100;
-font-size: 48px;
-line-height: 46px;
+font-size: 42px;
+line-height: 76px;
 text-transform: uppercase;
 }
 
@@ -5949,7 +5963,7 @@ text-transform: uppercase;
 
 /* Front page Network View */
 #block-views-activity_log_stream-block_2 .view-content {
-  margin-bottom: 16px;
+  margin-bottom: 40px; /*bea 16 -40*/
 }
 
 .activity-log-picture,
