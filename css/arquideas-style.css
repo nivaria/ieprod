@@ -142,7 +142,7 @@ body.admin-menu #header-small-wrapper {
 #header-region-following {
   background-color: #fff;
   z-index: 998;
-  margin-bottom: 40px;
+  margin-bottom: 16px;
 }
 
 #header-region-following.fixed-menu {
@@ -272,7 +272,7 @@ width: 280px;
 #header-large-wrapper {
   text-align: center;
   position: relative;
-  height: 180px;
+  height: 136px;
   overflow: hidden;
 }
 body.logged-in #header-large-wrapper {
@@ -3415,7 +3415,7 @@ width: 100%;
   margin: 0;
 }
 #main .block {
-margin-bottom: 30px;
+margin-bottom: 16px;
 }
 .field-ds-group-ds-node-date-type-vote .field {
 display: inline;
@@ -3730,11 +3730,11 @@ body.no-sidebars #content-group {
   margin: 0 auto;
 }
 body.node-type-page #content-group,
-body#pid-content-contact #content-group,
 body.page-cart #content-group {
   float: none;
 }
-body.node-type-page #content-group{
+body.node-type-page #content-group,
+body#pid-content-contact #content-group{
 	float: left;
 }
 body.no-sidebars #content-group h1.title {
@@ -4618,7 +4618,7 @@ color: #666666;
 font-size: 11px;
 font-weight: bold;
 padding: 4px 12px;
-text-transform: lowercase;
+text-transform: none;
 }
 .views-field-leave-group a:hover {
 text-decoration: none;
@@ -4965,6 +4965,12 @@ top: 28px;
 width: 348px;
 z-index: 100;
 }
+.page-full-view #view-id-contest_inscriptions_juryvotes-page_1 .inner.content .view-filters .fieldset-wrapper{
+    position: relative;
+    top:0;
+    float:left;
+    margin-bottom: 12px;
+}
 .page-full-view .inner.content .views-slideshow-controls-top .view-filters .fieldset-wrapper {
 width: 220px;
 background-color: #EBEBEB;
@@ -5033,6 +5039,7 @@ height: 24px;
 width: 24px;
 }
 .header div.userpoints div.user_badges {
+display: inline-block;    
 float: left;
 }
 .preselect-mark {
@@ -5264,7 +5271,7 @@ padding: 3px;
 
 /* Skinr Styles */
 .front-page-block {
-  margin-top: 50px;
+  margin-top: 0;
 }
 
 .front-page-block:before {
@@ -5285,7 +5292,7 @@ padding: 3px;
     font-size: 38px;
     font-weight: 200;
     line-height: 36px;
-    margin-top: 60px;
+    margin-top: 16px;
     text-align: center; 
   
 }
@@ -5294,7 +5301,7 @@ padding: 3px;
 .front-page-block .subtitle {
   font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
-  padding-bottom: 40px;
+  padding-bottom: 16px;
   margin: 0;
   font-size: 20px;
   color: #999;
@@ -5314,7 +5321,7 @@ body.page-news #main-content-inner > h3.subtitle {
 }
 
 .front-page-block .content {
-  margin-top: 40px;
+  margin-top: 16px;
 }
 
 #sidebar-last .single-border-block > .inner,
@@ -5804,11 +5811,11 @@ body.page-home #content-front-right .block {
 
 #block-views-slideshow_content-block_1 .views-field-title,
 #block-views-slideshow_content-block_1 .views-field-title a {
-  margin-top: 20px;
+  margin: 22px 0 10pxx;
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 color: #fff;
-font-weight: normal;
-font-size: 36px;
+font-weight: 100;
+font-size: 48px;
 line-height: 46px;
 text-transform: uppercase;
 }
@@ -5818,8 +5825,8 @@ text-transform: uppercase;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
 
   font-weight: 200;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 /* Front page Contests */
@@ -5942,7 +5949,7 @@ text-transform: uppercase;
 
 /* Front page Network View */
 #block-views-activity_log_stream-block_2 .view-content {
-  margin-bottom: 40px;
+  margin-bottom: 16px;
 }
 
 .activity-log-picture,
@@ -6345,7 +6352,7 @@ text-transform: uppercase;
 
 #block-nodeblock-224 .content {
   width: 810px;
-  margin: 40px auto 0;
+  margin: 0 auto 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
  font-weight:bold;
 
@@ -6525,7 +6532,8 @@ body.page-finished-contests #content-region h2.block-title {
 .contests-view .info,
 .contests-view .field-contest-public,
 .contests-view .field-delivery-limit-date,
-.contests-view .field-registration-limit-date {
+.contests-view .field-registration-limit-date,
+.contests-view .field-registration-interval-free {
   color: #fff;
   display: block;
   width: 210px;
@@ -6635,7 +6643,7 @@ body.page-finished-contests #content-region h2.block-title {
   width: 430px;
   padding: 10px 10px 0 10px;
   min-height: 65px;
-  border-right: 1px solid #333333;
+  border-right: 1px solid #666666;
 }
 
 #content-group #contest-banner .contest-titles h1.title {
@@ -6658,7 +6666,7 @@ text-align: center;
   width: 200px;
   padding: 5px 20px;
   min-height: 65px;
-  border-right: 1px solid #333333;
+  border-right: 1px solid #666666;
 }
 
 
@@ -6683,6 +6691,10 @@ text-align: center;
   font-size: 14px;
   font-weight: normal;
   padding-left: 27px;
+}
+
+#contest-banner .content-stats .field .field-label {
+    display: none;
 }
 
 .jquery-countdown.hasCountdown {
@@ -8214,6 +8226,7 @@ a.contest-unfollow-link {
 
 /* Hover state of buttons */
 a.participate-link:hover,
+a.user-unsubscribe-link:hover,
 #view-id-contests-page_2 .register-link-div a:hover,
 .contest-winners .views-field-view-node a:hover,
 .join-us-link-div a:hover,
@@ -8298,7 +8311,7 @@ table tr td.active{
 	/*margin-left: -24px;*/
 	/*border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;*/
-	margin: 20px 0;
+	margin: 50px 0 10px;
 
 
 }
@@ -8467,7 +8480,7 @@ ul.primary.ui-tabs-nav{
 	margin: 0 0 30px 0;
 }
 #main-group.forms_user{
-	margin-top: -30px;
+	margin-top: -17px;
 }
 #main-group.forms_user #main-content{
 	width: 958px!important;
@@ -8503,7 +8516,7 @@ ul.primary.ui-tabs-nav{
 	margin-left: 0;
 }
 .area-social #content-content, .area-comunidad #content-content{padding: 0 20px 20px 20px}
-.account-edit #content-content{padding: 45px 20px 20px 20px;}
+.account-edit #content-content{padding: 20px 20px 20px 20px;}
 #main-group .node-form .standard{
 
 }
@@ -8928,7 +8941,7 @@ body.page-user #main-inner #sidebar-first #sidebar-first-inner, body.page-user-1
 	border-left: 1px solid #ccc;
 }
 body.area-social #sidebar-last.nested{
-	margin: 0 -1px;
+	margin: 16px -1px 0;
 	width: 240px!important;
 }
 
@@ -10508,10 +10521,12 @@ float: left;
 	font-size: 14px;
 	padding-bottom: 8px;
 }
-.node-type-inscription .contest-info .field-registration-limit-date{
+.node-type-inscription .contest-info .field-registration-limit-date,
+.node-type-inscription .contest-info .field-registration-interval-free{
 	display: inline-block;
 }
-.node-type-inscription .contest-info .field-registration-limit-date .countdown_amount {
+.node-type-inscription .contest-info .field-registration-limit-date .countdown_amount,
+.node-type-inscription .contest-info .field-registration-interval-free .countdown_amount{
     font-size: 18px;
 }
 .node-type-inscription .contest-info .payment-early div{
@@ -10793,12 +10808,19 @@ body.node-type-contest #block-arquideas_generic-13 .social-sharing-widget .addth
   margin-bottom: 0;  
 }
 .area-social .header .userpoints {
-    width: 300px;
+    width: 699px;
     float: left;
-    display: inline-block;  
+    display: inline-block;
+    margin-bottom: 72px;
+}
+.area-social .header .userpoints .user-points {
+   display: inline-block;
+   margin-left: 12px;
+   float: left; 
 }
 .area-social .header .userpoints .user-job{
-    margin: 4px 0 0 0;
+    display: inline-block;
+    margin: -8px 0 0 25px;
     float: left;
 }
 
@@ -11435,6 +11457,7 @@ font-size: 12px
 .view-contests .odd,
 .field-delivery-limit-date .odd,
 .field-registration-limit-date .odd, 
+.field-registration-interval-free .odd,
 .field-early-registration .odd{
 	background-color: transparent;
 }
@@ -12122,4 +12145,76 @@ div.ok, tr.ok {
 .view-activity-log-stream .view-empty {
     text-align: center;
     font-weight: bold;
+}
+
+.arquideas-solution-logo {
+  float: right;
+  margin-left: 6px;
+  margin-top: 8px; 
+  padding-left: 6px;
+  border-left: 1px solid #666;
+}
+
+#header-region-top-following .arquideas-solution-logo {
+  margin-top: 5px;  
+}  
+
+.arquideas-managed-logo {
+  float: left;  
+}
+
+.node-type-inscription .contest-info .jquery-countdown.hasCountdown,
+#view-id-arqnetwork_account_inscriptions-page_1 .jquery-countdown.hasCountdown{
+    background-color: transparent !important;
+}
+
+#edit-field-inscription-files-62-0-data-value-wrapper label,
+#edit-field-inscription-files-61-0-data-value-wrapper label {
+    display: none;
+}
+
+#edit-field-inscription-files-62-0-data-value-wrapper,
+#edit-field-inscription-files-61-0-data-value-wrapper{
+    display: none;
+}
+
+.front .main {
+    margin-bottom: 0;
+}
+
+.front .main .main-inner {
+    padding: 14px 0 0;
+}
+
+#pid-user-password .name-holder {
+   margin: 0 0 12px;
+   padding: 0;
+}
+
+#pid-user-password.area-social .header .userpoints {
+   display: none; 
+}
+
+#pid-user-password .grid16-16.force_width.border {
+    margin-top: -17px;
+}
+
+#view-id-arqnetwork_account_inscriptions-page_1 .views-field-phpcode-4 .field-registration-interval-free .field-label {
+    display: none;
+}
+#view-id-arqnetwork_account_inscriptions-page_1 .views-field-phpcode-4 .field-registration-interval-free .jquery-countdown.hasCountdown {
+    background-color: transparent !important;
+}
+#og-invite-link-invite-page-form #edit-submit {
+   margin-left: 380px; 
+}
+#og-invite-link-invite-page-form #block-arquideas_generic-16{
+    margin-top: 0;
+}
+#og-invite-link-invite-page-form #block-arquideas_generic-16 a.back-button{
+     padding: 10px 15px;
+}
+body.account-edit #node-form div div.personal-data,
+body.account-edit #node-form div div.contact-data{
+    visibility: hidden;
 }
