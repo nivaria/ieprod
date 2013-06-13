@@ -83,8 +83,12 @@
 
       <div id="header-region-following" class="full-width">
         <div id="header-region-following-inner" class="max-width row inner clearfix">
-					<?php print $header_following; ?>
-  			</div><!-- /header-region-following-inner -->
+            <?php if(variable_get('arquideas_solution_mode', FALSE)): ?>
+                <?php print theme('grid_block', $primary_links_tree, 'primary-menu'); ?>
+            <?php else: ?>
+		<?php print $header_following; ?>
+            <?php endif; ?>
+  	</div><!-- /header-region-following-inner -->
       </div><!-- /header-region-following -->
 
       <!-- preface-top row: width = grid_width -->
