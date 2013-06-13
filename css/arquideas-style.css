@@ -1122,6 +1122,10 @@ form .fbsmp-icon-list input.form-submit {
 color: #6AB2D9;
 border:none !important;
 }
+.fbsmp-icon-list {
+border:none !important;
+
+}
 .views-exposed-form .views-exposed-widget input.form-submit {
 margin-top: 18px;
 }
@@ -3564,11 +3568,11 @@ box-shadow: none;
 .gerenciall_highlight .block-title {
 margin: 0;
 }
-.gerenciall_highlight .block-title {
+/*.gerenciall_highlight .block-title {
 background-color: #D83507;
 background-image: -moz-linear-gradient(center bottom, #D83407 20%, #F18A2B 88%);
 border-radius: 12px 12px 0 0;
-}
+}*/
 .gerenciall_highlight .block-title a {
 color: #FFFFFF !important;
 line-height: 100%;
@@ -3773,8 +3777,8 @@ width: 75%;
 }
 body.page-title-page #content-group {
 background-color: white;
-border-radius: 12px 12px 12px 12px;
-box-shadow: none;
+/*border-radius: 12px 12px 12px 12px;
+*/box-shadow: none;
 padding-left: 16px;
 padding-right: 16px;
 width: 632px;
@@ -7902,7 +7906,7 @@ body.page-node #content-group .colaborator-top h1.title {
 /* Activity Log */
 .activity-log-message {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   border: 0 none;
   padding: 15px 0;
   color: #262626;
@@ -8325,7 +8329,7 @@ table tr td.active{
 	/*margin-left: -24px;*/
 	/*border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;*/
-	margin: 50px 0 10px;
+	margin: 0 0 10px;
 
 
 }
@@ -8401,7 +8405,7 @@ table tr td.active{
 }
 
 header .addthis_toolbox, header .widget-header{
-	float: right;
+	float: left;
 	margin: 15px 0;
 	display: inline-block;
 	height: 29px;
@@ -8896,18 +8900,19 @@ width: auto; display: inline-block; float: right; display: none;
 .view-arqnetwork-user-profile .views-field-phpcode-1,
 .view-arqnetwork-user-profile .views-field-field-small-description-acp-value,
 .entrada-ficha .view-arqnetwork-user-profile {
-	border-bottom: 1px solid #CCCCCC;
-	padding-bottom: 20px;
+/*	border-bottom: 1px solid #CCCCCC;
+*/	padding-bottom: 20px;
 }
 .view-arqnetwork-user-profile .views-field-picture{
-	border: 1px solid #CCCCCC;
-	width: 238px;
+/*	border: 1px solid #CCCCCC;
+*/	width: 238px;
 	overflow: hidden;
 	border-left: none;
 	height: 197px;
 }
 .view-arqnetwork-user-profile{
-	border-left: 1px solid #ccc;
+/*bea	border-left: 1px solid #ccc;
+*/	background-color: #F0F0F0;
 }
 .account-edit .view-arqnetwork-user-profile .views-field-picture{
 	border-left: 1px solid #ccc;
@@ -9994,7 +9999,7 @@ padding: 8px 12px;height: 35px;
 .facebook-status-comments .fbss-comments-links a{
 	float: right;
 	background: #222;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 4px;
     color: #FFFFFF;
    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 2px 12px 0px;
@@ -10825,7 +10830,7 @@ body.node-type-contest #block-arquideas_generic-13 .social-sharing-widget .addth
     width: 699px;
     float: left;
     display: inline-block;
-    margin-bottom: 72px;
+    margin-bottom: 0x;
 }
 .area-social .header .userpoints .user-points {
    display: inline-block;
@@ -10841,10 +10846,9 @@ body.node-type-contest #block-arquideas_generic-13 .social-sharing-widget .addth
 .area-social .header #block-arquideas_generic-13 {
     display: inline-block;
     margin-bottom: 0;
-    width: 400px;
-    float: right;
+    width: 390px;
 }
-
+/*bea
 .area-social .header #block-arquideas_generic-13 .addthis_toolbox .addthis_toolbox_item,
 .page-node.full-node #content-group #block-arquideas_generic-13 .addthis_toolbox .addthis_toolbox_item,
 .display-project #block-arquideas_generic-13 .addthis_toolbox .addthis_toolbox_item{
@@ -10859,7 +10863,7 @@ body.node-type-contest #block-arquideas_generic-13 .social-sharing-widget .addth
 
 #block-arquideas_generic-13 .widget-body .addthis_button_email, #block-arquideas_generic-13 .widget-body .addthis_button_email > span.at300bs {
     float: none;
-}
+}*/
 
 .arquideas-network #content-front-inner .content-front-left div.node,
 .page-solr-nodetype-multi #content-front-inner .content-front-left div.node,
@@ -11564,6 +11568,7 @@ font-size: 12px
    background-color: #f0f0f0;
    padding: 1%;
    width: 98%; 
+   border-radius: 4px 4px 4px 4px;
 }
 
 .fbsmp-plugin-icon {
@@ -11893,13 +11898,12 @@ div.ok, tr.ok {
 
 .area-social .header .social-sharing-widget {
     display: inline-block;
-    float: right;
     margin-bottom: 10px;
-    margin-top: 22px;
+    margin-left: 8px;
 }
 
 .area-social header .addthis_toolbox, .area-social header .widget-header{
-    margin: -10px 0 0;
+    margin:0x;
 }
 
 /* White Rounded Buttons */
