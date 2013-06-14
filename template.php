@@ -140,6 +140,26 @@ function ieprod_breadcrumb($breadcrumb) {
             // Get custom breadcrumbs
             $breadcrumb = drupal_get_breadcrumb();
         }
+        
+        if(variable_get('arquideas_solution_mode', FALSE)){
+           if($node->type==='group'){
+               $result = db_query("SELECT nid FROM {content_type_contest} WHERE field_contest_related_group_nid = %d", $node->nid);
+               $row = db_fetch_array($result);
+               
+               if(!empty($row['nid'])){
+                   $links = array();
+                   $links[] = l(t('Home'), '<front>');
+                   $links[] = l(t('Competition'), 'node/'.$row['nid']);
+                   $links[] = t('Discussions');
+               
+                  // Set custom breadcrumbs
+                  drupal_set_breadcrumb($links);
+
+                  // Get custom breadcrumbs
+                  $breadcrumb = drupal_get_breadcrumb();
+               }    
+           } 
+        }
     }
 
     if (count($breadcrumb) > 1) {
