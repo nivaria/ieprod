@@ -7941,7 +7941,7 @@ width: 32%;
 #TB_window #user-register,
 .login-wrapper, .forgot-wrapper {
 width: 98%;
-margin: 20px 1% 0 5%;
+margin: 20px 1% 0 1%;
 float: left;
 }
 
@@ -12235,4 +12235,7 @@ div.ok, tr.ok {
 body.account-edit #node-form div div.personal-data,
 body.account-edit #node-form div div.contact-data{
     visibility: hidden;
+}
+.not-logged-in #TB_ajaxContent {
+    overflow: hidden;
 }
