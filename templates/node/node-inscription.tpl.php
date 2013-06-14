@@ -17,7 +17,10 @@
                     $is_individual = FALSE;
                 }
             }
-        }    
+        } 
+        if($contest->field_contest_free[0]['value']==1){
+            $is_individual = FALSE;
+        }
 
     $class_add = '';
     if($node->field_inscription_state[0]['value']==InscriptionState::PREINSCRIPTED && $num_members==1){
