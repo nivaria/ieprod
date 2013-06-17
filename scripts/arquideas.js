@@ -450,6 +450,15 @@ $(window).load(function(){
     //Filter in Jury votes page
     if($("#view-id-contest_inscriptions_juryvotes-page_1").length){
         $("#view-id-contest_inscriptions_juryvotes-page_1 .view-filters .views-exposed-form").removeClass("collapsed");
+        $("#view-id-contest_inscriptions_juryvotes-page_1 .view-filters .views-exposed-form > legend").hide();
+    }
+    if($("#view-id-contest_inscriptions_myvotes-page_1").length){
+        $("#view-id-contest_inscriptions_myvotes-page_1 .view-filters .views-exposed-form").removeClass("collapsed");
+        $("#view-id-contest_inscriptions_myvotes-page_1 .view-filters .views-exposed-form > legend").hide();
+    }
+    if($("#view-id-contest_inscriptions_presel-page_1").length){
+        $("#view-id-contest_inscriptions_presel-page_1 .view-filters .views-exposed-form").removeClass("collapsed");
+        $("#view-id-contest_inscriptions_presel-page_1 .view-filters .views-exposed-form > legend").hide();
     }
     //Footer solution by image
     $("#block-powered_by_nivaria-0 .content > a.nivaria > img").attr("usemap","#solutionmap");
