@@ -8460,6 +8460,7 @@ header .addthis_toolbox, header .widget-header{
 	border-bottom: none;
 	background-color: #99CC00;
 	width: 960px;
+	padding-top:120px;
 }
 .area-social #content-tabs ul.secondary li{
 	margin: 0;
