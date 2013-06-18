@@ -447,19 +447,6 @@ $(window).load(function(){
       $("#block-arquideas_generic-13 .widget-body .addthis_toolbox .addthis_toolbox_item > .fb-like").css("width",w);
       $("#block-arquideas_generic-13 .widget-body .addthis_toolbox .addthis_toolbox_item > iframe").css("height","20px");
     }
-    //Filter in Jury votes page
-    if($("#view-id-contest_inscriptions_juryvotes-page_1").length){
-        $("#view-id-contest_inscriptions_juryvotes-page_1 .view-filters .views-exposed-form").removeClass("collapsed");
-        $("#view-id-contest_inscriptions_juryvotes-page_1 .view-filters .views-exposed-form > legend").hide();
-    }
-    if($("#view-id-contest_inscriptions_myvotes-page_1").length){
-        $("#view-id-contest_inscriptions_myvotes-page_1 .view-filters .views-exposed-form").removeClass("collapsed");
-        $("#view-id-contest_inscriptions_myvotes-page_1 .view-filters .views-exposed-form > legend").hide();
-    }
-    if($("#view-id-contest_inscriptions_presel-page_1").length){
-        $("#view-id-contest_inscriptions_presel-page_1 .view-filters .views-exposed-form").removeClass("collapsed");
-        $("#view-id-contest_inscriptions_presel-page_1 .view-filters .views-exposed-form > legend").hide();
-    }
     //Footer solution by image
     $("#block-powered_by_nivaria-0 .content > a.nivaria > img").attr("usemap","#solutionmap");
     var imgcode = $("#block-powered_by_nivaria-0 .content > a.nivaria").html();
