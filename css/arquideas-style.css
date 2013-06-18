@@ -7217,7 +7217,9 @@ a.follow-link-twitter:hover {
 	background-image: url(../images/social/icon-twitter-over.png);
 }
 /* Red Buttons */
-a.participate-link, .view-contest-blocks.view-display-id-block_6 .info, .contest-winners .views-field-view-node a, a.contest-winners, a.public-vote-link, #view-id-contests-page_2 .register-link-div a, #comment-form #edit-submit, .view div.more-link a, .view .view-footer a, .heartbeat-more-messages-wrapper a, #view-id-contests-page_2 .views-field-view-node-1 a, #block-views-contests-block_5 .views-field-view-node a, .register-link-div a, .join-us-link-div a, .view-contests .field-content .generic-button, .node-type-inscription .contest-info .open-contest-button a, a.sign-up-link, a.sign-in-link, #edit-present, a.user-unsubscribe-link, .prev-project a, .next-project a, .page-full-view .views_slideshow_singleframe_slide .flag-wrapper .flag, #sidebar-last #block-commons_core-create_group .content #edit-create {
+a.participate-link, .view-contest-blocks.view-display-id-block_6 .info, .contest-winners .views-field-view-node a, a.contest-winners, a.public-vote-link, #view-id-contests-page_2 .register-link-div a, #comment-form #edit-submit, .view div.more-link a, .view .view-footer a, .heartbeat-more-messages-wrapper a, #view-id-contests-page_2 .views-field-view-node-1 a, #block-views-contests-block_5 .views-field-view-node a, .register-link-div a, .join-us-link-div a, .view-contests .field-content .generic-button, .node-type-inscription .contest-info .open-contest-button a, a.sign-up-link, a.sign-in-link, #edit-present, a.user-unsubscribe-link, .prev-project a, .next-project a, .page-full-view .views_slideshow_singleframe_slide .flag-wrapper .flag, #sidebar-last #block-commons_core-create_group .content #edit-create,
+#sidebar-last #block-commons_core-create_group .content #edit-create,
+.page-full-view .views_slideshow_singleframe_slide .flag-wrapper.flag-rejected .flag.unflag-action{
 	font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
 	padding: 10px 20px;
 	color: #fff;
@@ -7277,7 +7279,10 @@ a.participate-link, .view-contest-blocks.view-display-id-block_6 .info, .contest
 	font-size: 18px;
 }
 /* Blue Square Buttons */
-form input.form-submit, .views-exposed-form .views-exposed-widget input.form-submit, .og-buttons a, body.node-type-group.page-node form input#edit-submit, #gerencia-generic-faq-reply-form #edit-submit, #edit-submit, #edit-publish, #search-form #edit-submit, body.page-node .edit-content-link, body.page-ogdetails .edit-content-link, body.page-node .og-manage-link, body.page-node .generic-button, .flag-wrapper .flag {
+form input.form-submit, .views-exposed-form .views-exposed-widget input.form-submit, .og-buttons a, body.node-type-group.page-node form input#edit-submit, #gerencia-generic-faq-reply-form #edit-submit, #edit-submit, #edit-publish, #search-form #edit-submit, body.page-node .edit-content-link, body.page-ogdetails .edit-content-link, body.page-node .og-manage-link, body.page-node .generic-button, .flag-wrapper .flag,
+#edit-submit, #edit-publish, #search-form #edit-submit, body.page-node .edit-content-link, body.page-ogdetails .edit-content-link, body.page-node .og-manage-link, body.page-node .generic-button, .flag-wrapper .flag,
+.page-full-view .views_slideshow_singleframe_slide .flag-wrapper.flag-favorit .flag,
+.page-full-view .views_slideshow_singleframe_slide .flag-wrapper.flag-selected .flag{
 	background-color: #FF7425;
 	background-image: none;
 	border: 0 none;
@@ -10583,13 +10588,14 @@ div.ok, tr.ok {
 	display: inline-block;
 	width: 99%;
 	margin:16px 0;
+        background-color: white;
 }
 .page-full-view .views_slideshow_singleframe_slide .views-field-field-inscription-files-fid .field-content {
 	border: 1px solid #FFF;
 	padding: 12px;
 }
 .page-full-view .views_slideshow_singleframe_slide .views-field-field-inscription-files-fid table th, .page-full-view .views_slideshow_singleframe_slide .views-field-field-inscription-files-fid table td {
-	color: #FFF;
+	color: black;
 }
 .page-full-view .views_slideshow_singleframe_slide .views-field-ops, #views_slideshow_singleframe_main_contest_inscriptions_winnersel-page_1 .views-field-phpcode {
 	height: 38px;
@@ -10600,7 +10606,7 @@ div.ok, tr.ok {
 	margin: 16px 0;
 }
 #page.page-full-view .view-full-page {
-	padding: 20px 0 20px 20px;
+	padding: 20px 0 20px 12px;
 }
 .page-full-view .views_slideshow_singleframe_pager .pager-item .views-field-picture {
 	float: right;
@@ -10814,3 +10820,210 @@ body.account-edit #node-form div div.personal-data, body.account-edit #node-form
 .not-logged-in #TB_ajaxContent {
 	overflow: hidden;
 }
+/*Jury votes pages */
+body.not-front .page-full-view #content-group #view-id-contest_inscriptions_juryvotes-page_1 .view-content .views-slideshow-controls-top,
+body.not-front .page-full-view #content-group #view-id-contest_inscriptions_myvotes-page_1 .view-content .views-slideshow-controls-top,
+body.not-front .page-full-view #content-group #view-id-contest_inscriptions_presel-page_1 .view-content .views-slideshow-controls-top{
+    width: 23%;
+    background-color: white;
+    margin-right:12px;
+}
+body.not-front .page-full-view #content-group #view-id-contest_inscriptions_juryvotes-page_1 .view-content .views-slideshow-controls-top,
+body.not-front .page-full-view #content-group #view-id-contest_inscriptions_myvotes-page_1 .view-content .views-slideshow-controls-top{
+    margin-top:90px;
+}
+body.not-front .page-full-view #main-content #view-id-contest_inscriptions_juryvotes-page_1 .view-content .views-slideshow-controls-top .views_slideshow_pagerNumbered .pager-item,
+body.not-front .page-full-view #main-content #view-id-contest_inscriptions_myvotes-page_1 .view-content .views-slideshow-controls-top .views_slideshow_pagerNumbered .pager-item,
+body.not-front .page-full-view #main-content #view-id-contest_inscriptions_presel-page_1 .view-content .views-slideshow-controls-top .views_slideshow_pagerNumbered .pager-item{
+   padding-left: 8px; 
+   width: 96%;
+}
+body.not-front .page-full-view #main-content #view-id-contest_inscriptions_juryvotes-page_1 .view-content .views-slideshow-controls-top .views_slideshow_pagerNumbered .pager-item a,
+body.not-front .page-full-view #main-content #view-id-contest_inscriptions_myvotes-page_1 .view-content .views-slideshow-controls-top .views_slideshow_pagerNumbered .pager-item a{
+    width: 75px;
+    float:left;
+}
+body.not-front .page-full-view #main-content #view-id-contest_inscriptions_presel-page_1 .view-content .views-slideshow-controls-top .views_slideshow_pagerNumbered .pager-item a{
+  width: 138px;  
+}
+body.not-front .page-full-view #main-content #view-id-contest_inscriptions_juryvotes-page_1 .view-content .views-slideshow-controls-top .item-list,
+body.not-front .page-full-view #main-content #view-id-contest_inscriptions_myvotes-page_1 .view-content .views-slideshow-controls-top .item-list,
+body.not-front .page-full-view #main-content #view-id-contest_inscriptions_presel-page_1 .view-content .views-slideshow-controls-top .item-list {
+    width: 217px;
+}
+body.not-front .page-full-view #main-content #view-id-contest_inscriptions_juryvotes-page_1 .view-content .views-slideshow-controls-top .item-list .pager .pager-element a,
+body.not-front .page-full-view #main-content #view-id-contest_inscriptions_myvotes-page_1 .view-content .views-slideshow-controls-top .item-list .pager .pager-element a,
+body.not-front .page-full-view #main-content #view-id-contest_inscriptions_presel-page_1 .view-content .views-slideshow-controls-top .item-list .pager .pager-element a{
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+body.not-front .page-full-view #main-content #view-id-contest_inscriptions_juryvotes-page_1 .view-content .views-slideshow-controls-top .item-list .pager .pager-element.pager-current a,
+body.not-front .page-full-view #main-content #view-id-contest_inscriptions_myvotes-page_1 .view-content .views-slideshow-controls-top .item-list .pager .pager-element.pager-current a,
+body.not-front .page-full-view #main-content #view-id-contest_inscriptions_presel-page_1 .view-content .views-slideshow-controls-top .item-list .pager .pager-element.pager-current a{
+   font-family: Helvetica,Arial,sans-serif;
+   font-size: 13px; 
+}
+.views_slideshow_singleframe_pager div.views-field-count, .views_slideshow_singleframe_pager div.views-field-count-1, .views_slideshow_singleframe_pager div.views-field-count-2, .views_slideshow_singleframe_pager div.views-field-value, .views_slideshow_singleframe_pager div.views-field-value div, .views_slideshow_singleframe_pager div.jury-flags div, .views_slideshow_singleframe_pager div.winners-flags, .views_slideshow_singleframe_pager div.winners-flags div, .views_slideshow_singleframe_pager div.fivestar-widget, .views_slideshow_singleframe_pager div.fivestar-widget div {
+display: block;
+}
+.views_slideshow_singleframe_pager div.jury-flags{
+    display: block;
+    padding-left: 0;
+    float:right;
+}
+.views_slideshow_singleframe_pager div.jury-flags .jury-flag-favorit,
+.views_slideshow_singleframe_pager div.jury-flags .jury-flag-selected,
+.views_slideshow_singleframe_pager div.jury-flags .jury-flag-rejected{
+   padding-left:0; 
+}
+.views_slideshow_singleframe_pager div.jury-flags .jury-flag-icon{
+    display: inline-block;
+    margin-left: 4px;
+    padding: 0 8px;
+}
+.views_slideshow_singleframe_pager div.jury-flags .jury-flag-icon.favorit{
+    background: transparent url('../images/icons/fav-icon.png') no-repeat left top;
+}
+.views_slideshow_singleframe_pager div.jury-flags .jury-flag-icon.selected{
+    background: transparent url('../images/icons/star-icon.png') no-repeat left top;
+}
+.views_slideshow_singleframe_pager div.jury-flags .jury-flag-icon.rejected{
+    background: transparent url('../images/icons/rejected-icon.png') no-repeat left top;
+}
+.jury-flags .jury-flag-favorit {
+color: #FEBB08;
+}
+.jury-flags .jury-flag-selected {
+color: #24BCBE;
+}
+.jury-flags .jury-flag-rejected {
+color: #A3A3A3;
+}
+.page-full-view #view-id-contest_inscriptions_juryvotes-page_1 .inner.content .view-filters .fieldset-wrapper,
+.page-full-view #view-id-contest_inscriptions_myvotes-page_1 .inner.content .view-filters .fieldset-wrapper,
+.page-full-view #view-id-contest_inscriptions_presel-page_1 .inner.content .view-filters .fieldset-wrapper{
+    position: relative;
+    top: 0;
+    border-radius: 0;
+    box-shadow: none;
+    float: left;
+    margin-bottom: 16px;
+}
+.page-full-view #view-id-contest_inscriptions_juryvotes-page_1 .inner.content .views-slideshow-controls-top .view-filters .fieldset-wrapper,
+.page-full-view #view-id-contest_inscriptions_myvotes-page_1 .inner.content .views-slideshow-controls-top .view-filters .fieldset-wrapper,
+.page-full-view #view-id-contest_inscriptions_presel-page_1 .inner.content .views-slideshow-controls-top .view-filters .fieldset-wrapper{
+    width: 217px;
+    border: 0 none;
+    background-color: white;
+}
+.page-full-view #view-id-contest_inscriptions_juryvotes-page_1 .inner.content .views-slideshow-controls-top .view-filters .fieldset-wrapper{
+   width: 201px;
+   margin-left: 8px;
+   margin-right: 8px;
+   border-top: 1px solid #666;
+   border-bottom: 1px solid #666;
+}
+.page-full-view #view-id-contest_inscriptions_juryvotes-page_1 .inner.content .views-slideshow-controls-top .view-filters .fieldset-wrapper .views-exposed-widgets{
+   margin: 2px 0 8px 0; 
+}
+.page-full-view #view-id-contest_inscriptions_juryvotes-page_1 .inner.content .view-filters .views-exposed-form,
+.page-full-view #view-id-contest_inscriptions_myvotes-page_1 .inner.content .view-filters .views-exposed-form,
+.page-full-view #view-id-contest_inscriptions_presel-page_1 .inner.content .view-filters .views-exposed-form{
+  border: 0 none;
+  width: 217px;
+  height: auto;
+}
+#view-id-contest_inscriptions_juryvotes-page_1 .preselect-mark.selected,
+#view-id-contest_inscriptions_myvotes-page_1 .preselect-mark.selected{
+    background: transparent url('../images/icons/arquideas-logo-xs.png') no-repeat top left;
+    padding: 2px 8px;
+    float:left;
+}
+.page-full-view .views_slideshow_singleframe_slide .flag-wrapper.flag-favorit .flag,
+.page-full-view .views_slideshow_singleframe_slide .flag-wrapper.flag-selected .flag {
+    padding: 10px 20px;
+    margin-left: 16px;
+}
+#page.page-full-view #view-id-contest_inscriptions_juryvotes-page_1.view-full-page .views-exposed-form .fieldset-wrapper label,
+#page.page-full-view #view-id-contest_inscriptions_myvotes-page_1.view-full-page .views-exposed-form .fieldset-wrapper label,
+#page.page-full-view #view-id-contest_inscriptions_presel-page_1.view-full-page .views-exposed-form .fieldset-wrapper label{
+    font-weight: bold;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+#page.page-full-view #view-id-contest_inscriptions_juryvotes-page_1.view-full-page .views-exposed-form .fieldset-wrapper .views-exposed-widgets select,
+#page.page-full-view #view-id-contest_inscriptions_myvotes-page_1.view-full-page .views-exposed-form .fieldset-wrapper .views-exposed-widgets select,
+#page.page-full-view #view-id-contest_inscriptions_presel-page_1.view-full-page .views-exposed-form .fieldset-wrapper .views-exposed-widgets select{
+    width:200px;
+}
+#page.page-full-view #view-id-contest_inscriptions_juryvotes-page_1.view-full-page .views-exposed-form .fieldset-wrapper .views-exposed-widgets input,
+#page.page-full-view #view-id-contest_inscriptions_myvotes-page_1.view-full-page .views-exposed-form .fieldset-wrapper .views-exposed-widgets input,
+#page.page-full-view #view-id-contest_inscriptions_presel-page_1.view-full-page .views-exposed-form .fieldset-wrapper .views-exposed-widgets input{
+    width: 188px;
+}
+#view-id-contest_inscriptions_juryvotes-page_1 .views-field-phpcode-4,
+#view-id-contest_inscriptions_juryvotes-page_1 .views-field-field-image-inscription-fid,
+#view-id-contest_inscriptions_juryvotes-page_1 .views-field-phpcode,
+#view-id-contest_inscriptions_myvotes-page_1 .views-field-phpcode-2,
+#view-id-contest_inscriptions_myvotes-page_1 .views-field-field-image-inscription-fid,
+#view-id-contest_inscriptions_myvotes-page_1 .views-field-phpcode,
+#views_slideshow_singleframe_main_contest_inscriptions_publicvote-page_1 .views-field-phpcode-2{
+    margin-bottom: 16px;
+    float: left;
+    width: 100%;
+}
+#votes-n-of-m{
+    color: #1A1A1A;
+    padding: 8px 8px 0 8px;
+    font-size: 16px;
+}
+
+#votes-n-of-m span {
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  font-style: italic;  
+}
+#page.page-full-view .view-full-page .views_slideshow_singleframe_main .field-content .flag-rejected{
+    float:left;
+}
+.personal_notes > .title {
+    display: none;
+}
+
+#view-id-contest_inscriptions_juryvotes-page_1 .views-field-phpcode-4,
+#view-id-contest_inscriptions_myvotes-page_1 .views-field-phpcode-2,
+#view-id-contest_inscriptions_juryvotes-page_1 .views-field-field-image-inscription-fid,
+#view-id-contest_inscriptions_myvotes-page_1 .views-field-field-image-inscription-fid{
+    background-color: white;
+}
+#view-id-contest_inscriptions_juryvotes-page_1 .views-field-phpcode-4 .jq-scrollable-inscription,
+#view-id-contest_inscriptions_myvotes-page_1 .views-field-phpcode-2 .jq-scrollable-inscription,
+#view-id-contest_inscriptions_juryvotes-page_1 .views-field-field-image-inscription-fid .jq-scrollable-inscription,
+#view-id-contest_inscriptions_myvotes-page_1 .views-field-field-image-inscription-fid .jq-scrollable-inscription{
+   width: 690px; 
+   margin: 0 auto;
+   padding:8px 0;
+}
+#view-id-contest_inscriptions_juryvotes-page_1 .views-field-phpcode-4 .jq-scrollable-inscription .scrollable,
+#view-id-contest_inscriptions_myvotes-page_1 .views-field-phpcode-2 .jq-scrollable-inscription .scrollable,
+#view-id-contest_inscriptions_juryvotes-page_1 .views-field-field-image-inscription-fid .jq-scrollable-inscription .scrollable,
+#view-id-contest_inscriptions_myvotes-page_1 .views-field-field-image-inscription-fid .jq-scrollable-inscription .scrollable{
+   width: 690px; 
+}
+#view-id-contest_inscriptions_juryvotes-page_1 .views-field-phpcode-4 .jq-scrollable-inscription .scrollable .items div,
+#view-id-contest_inscriptions_myvotes-page_1 .views-field-phpcode-2 .jq-scrollable-inscription .scrollable .items div,
+#view-id-contest_inscriptions_juryvotes-page_1 .views-field-field-image-inscription-fid .jq-scrollable-inscription .scrollable .items div,
+#view-id-contest_inscriptions_myvotes-page_1 .views-field-field-image-inscription-fid .jq-scrollable-inscription .scrollable .items div{
+   width: 690px; 
+}
+#view-id-contest_inscriptions_juryvotes-page_1 .views-field-phpcode-4 .jq-scrollable-inscription .scrollable img,
+#view-id-contest_inscriptions_myvotes-page_1 .views-field-phpcode-2 .jq-scrollable-inscription .scrollable img,
+#view-id-contest_inscriptions_juryvotes-page_1 .views-field-field-image-inscription-fid .jq-scrollable-inscription .scrollable img,
+#view-id-contest_inscriptions_myvotes-page_1 .views-field-field-image-inscription-fid .jq-scrollable-inscription .scrollable img{
+   width: 690px; 
+}
+#view-id-contest_inscriptions_juryvotes-page_1 .views-field-field-image-inscription-fid .field-content img,
+#view-id-contest_inscriptions_myvotes-page_1 .views-field-field-image-inscription-fid .field-content img{
+   width: 712px; 
+}
+/*End Jury votes pages*/
