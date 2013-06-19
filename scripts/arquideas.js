@@ -400,8 +400,6 @@ jqRel.appendTo(jqNodeForm.find("div.node-form-cols")).css("width","25%").css("fl
                 }
                 //Blocks in inscription details
                 if($("body.area-social .contest-info .two-columns").length){
-                    $("#node-869 .content h3").addClass("title");
-                    $("#node-869 .content > div").addClass("deadline-date").style("margin-left","0");
                     
                     var m_h = 0;
                     $("body.area-social .contest-info .two-columns > div").each(function(){
@@ -412,7 +410,8 @@ jqRel.appendTo(jqNodeForm.find("div.node-form-cols")).css("width","25%").css("fl
                     });
                     $("body.area-social .contest-info .two-columns > div").height(m_h);
                     
-                    
+                    $("#node-869 .content h3").addClass("title");
+                    $("#node-869 .content > div").addClass("deadline-date").css("margin-left","0");
                 }
 
 });
