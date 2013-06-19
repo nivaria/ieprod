@@ -5484,9 +5484,13 @@ body.page-home #content-front-right .block {
 }
 /* Front page slider */
 
-#block-views-slideshow_content-block_1 .views-field-title, #block-views-slideshow_content-block_1 .views-field-field-node-slideshow-nid, #block-views-slideshow_content-block_1 .views-field-body {
+#block-views-slideshow_content-block_1 .views-field-field-node-slideshow-nid, #block-views-slideshow_content-block_1 .views-field-body {
 	text-align: center;
 	margin: 0 90px 0 130px;
+}
+#block-views-slideshow_content-block_1 .views-field-title {
+	text-align: center;
+	margin: 0 75px 0 75px;
 }
 #block-views-slideshow_content-block_1 .views-field-title, #block-views-slideshow_content-block_1 .views-field-title a {
 	margin: 22px 0 10pxx;
