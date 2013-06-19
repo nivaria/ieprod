@@ -408,6 +408,9 @@ jqRel.appendTo(jqNodeForm.find("div.node-form-cols")).css("width","25%").css("fl
                        }
                     });
                     $("body.area-social .contest-info .two-columns > div").height(m_h);
+                    
+                    $("#node-869 .content h3").addClass("title");
+                    $("#node-869 .content > div").addClass("deadline-date");
                 }
 
 });
