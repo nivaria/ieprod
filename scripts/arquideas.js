@@ -398,6 +398,17 @@ jqRel.appendTo(jqNodeForm.find("div.node-form-cols")).css("width","25%").css("fl
                 if($("#og-invite-link-invite-page-form").length){
                     $("#block-arquideas_generic-16").appendTo("#og-invite-link-invite-page-form > div");
                 }
+                //Blocks in inscription details
+                if($("body.area-social .contest-info .two-columns").length){
+                    var m_h = 0;
+                    $("body.area-social .contest-info .two-columns > div").each(function(){
+                       var m_h1 = $(this).height();
+                       if(m_h1>m_h){
+                           m_h = m_h1;
+                       }
+                    });
+                    $("body.area-social .contest-info .two-columns > div").height(m_h);
+                }
 
 });
 
