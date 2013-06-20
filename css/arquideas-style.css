@@ -11042,3 +11042,8 @@ color: #A3A3A3;
 #block-powered_by_nivaria-0 .content img {
     width: 182px;
 }
+
+#quicktabs-arqnetwork_group_quicktabs .views-exposed-wrapper .views-exposed-widget.views-exposed-submit .form-submit {
+   margin-top: 27px;
+   margin-left: 16px;
+}

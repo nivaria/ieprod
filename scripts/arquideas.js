@@ -457,9 +457,11 @@ $(window).load(function(){
       if($("body").hasClass("node-type-contest")){
           w = "300px";
       }
+      
       $("#block-arquideas_generic-13 .widget-body .addthis_toolbox .addthis_toolbox_item > iframe").css("width",w);
+      $("#block-arquideas_generic-13 .widget-body .addthis_toolbox .addthis_toolbox_item.addthis_button_facebook_like > iframe").css("width",w+30);
       $("#block-arquideas_generic-13 .widget-body .addthis_toolbox > .fb_send").css("width",w);
-      $("#block-arquideas_generic-13 .widget-body .addthis_toolbox .addthis_toolbox_item > .fb-like").css("width",w);
+      $("#block-arquideas_generic-13 .widget-body .addthis_toolbox .addthis_toolbox_item > .fb-like").css("width",w+30);
       $("#block-arquideas_generic-13 .widget-body .addthis_toolbox .addthis_toolbox_item > iframe").css("height","20px");
     }
     //Footer solution by image
