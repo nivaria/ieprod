@@ -2177,7 +2177,7 @@ body#pid-dashboard h1.title, body#pid-dashboard #breadcrumbs {
 }
 .calendar-calendar div.date-nav {
 	background: none repeat scroll 0 0 transparent;
-	border: medium none;
+	border: medium none;views
 	margin: 0 0 10px;
 }
 .calendar-calendar div.date-nav div.date-prev {
@@ -3490,6 +3490,7 @@ td.views-field-last-updated.active, td.views-field-last-updated {
 	font-size: 11px;
 	font-style: normal;
 	padding-bottom: 6px;
+	clear: both;
 }
 .views-field-last-updated em {
 	display: inline-block;
