@@ -5489,18 +5489,19 @@ body.page-home #content-front-right .block {
 	text-align: center;
 	margin: 0 90px 0 130px;
 }
-#block-views-slideshow_content-block_1 .views-field-title {
-	text-align: center;
-	margin: 0 75px 0 75px;
-}
+
 #block-views-slideshow_content-block_1 .views-field-title, #block-views-slideshow_content-block_1 .views-field-title a {
 	margin: 22px 0 10pxx;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #fff;
 	font-weight: 100;
-	font-size: 42px;
+	font-size: 38px;
 	line-height: 76px;
 	text-transform: uppercase;
+}
+#block-views-slideshow_content-block_1 .views-field-title {
+	text-align: center;
+	margin: 0 30px 0 30px;
 }
 #block-views-slideshow_content-block_1 .views-field-field-node-slideshow-nid, #block-views-slideshow_content-block_1 .views-field-body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
