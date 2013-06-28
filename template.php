@@ -284,22 +284,26 @@ function ieprod_preprocess_page(&$vars)
                     'until' => $vars['node']->field_registration_limit_date[0]['value2'],
                     'format' => 'dHM',
                     'expiryText' => t('<span>Inscription finished</span>'),
+                    'serverSync' => 'serverTime',
                 ));
                 jquery_countdown_add('.field-registration-limit-date #jquery-countdown-1', array(
                     'until' => $vars['node']->field_registration_limit_date[0]['value2'],
                     'format' => 'dHM',
+                    'serverSync' => 'serverTime',
                 ));
               }
               if(isset($vars['node']->field_early_registration[0]['value2'])){
                 jquery_countdown_add('.field-early-registration #jquery-countdown', array(
                     'until' => $vars['node']->field_early_registration[0]['value2'],
                     'format' => 'dHM',
+                    'serverSync' => 'serverTime',
                 ));
               }
               if(isset($vars['node']->field_delivery_limit_date[0]['value'])){
                 jquery_countdown_add('.field-delivery-limit-date #jquery-countdown', array(
                     'until' => $vars['node']->field_delivery_limit_date[0]['value'],
                     'format' => 'dHM',
+                    'serverSync' => 'serverTime',
                 ));
               }
           }
